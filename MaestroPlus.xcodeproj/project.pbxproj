@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A04A58C13AA495E0055C7FE /* MaestroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A04A58B13AA495E0055C7FE /* MaestroModel.m */; };
+		0A37E7DE1386D72400684194 /* PlaylistNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A37E7DC1386D72400684194 /* PlaylistNavViewController.m */; };
+		0A37E7DF1386D72400684194 /* PlaylistNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A37E7DD1386D72400684194 /* PlaylistNavViewController.xib */; };
+		0A37E8901386E54600684194 /* PlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A37E88E1386E54600684194 /* PlaylistViewController.m */; };
+		0A37E8911386E54600684194 /* PlaylistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A37E88F1386E54600684194 /* PlaylistViewController.xib */; };
+		0A37EE0913972EB800684194 /* PlayListIndividualView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A37EE0713972EB800684194 /* PlayListIndividualView.m */; };
+		0A37EE0A13972EB800684194 /* PlayListIndividualView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A37EE0813972EB800684194 /* PlayListIndividualView.xib */; };
+		0A37EE391397328D00684194 /* PlaylistAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A37EE371397328D00684194 /* PlaylistAddView.m */; };
+		0A37EE3A1397328D00684194 /* PlaylistAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A37EE381397328D00684194 /* PlaylistAddView.xib */; };
+		0A6DBBD013B4D974003F085F /* PlaylistNameAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DBBCF13B4D974003F085F /* PlaylistNameAlert.m */; };
+		0A6DE39113C4CD31003F085F /* Poetry Man.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE37413C4CD31003F085F /* Poetry Man.pdf */; };
+		0A6DE39213C4CD31003F085F /* Praise The Lord.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE37513C4CD31003F085F /* Praise The Lord.pdf */; };
+		0A6DE39313C4CD31003F085F /* Prayer Of The Children.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE37613C4CD31003F085F /* Prayer Of The Children.pdf */; };
+		0A6DE39513C4CD31003F085F /* San Isidro.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE37813C4CD31003F085F /* San Isidro.pdf */; };
+		0A6DE39713C4CD31003F085F /* Scene Change.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE37A13C4CD31003F085F /* Scene Change.pdf */; };
+		0A6DE39813C4CD31003F085F /* Seasons Of Love.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE37B13C4CD31003F085F /* Seasons Of Love.pdf */; };
+		0A6DE39913C4CD31003F085F /* Shall We Gather At The River.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE37C13C4CD31003F085F /* Shall We Gather At The River.pdf */; };
+		0A6DE39A13C4CD31003F085F /* Singing Men On Sunday Morning.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE37D13C4CD31003F085F /* Singing Men On Sunday Morning.pdf */; };
+		0A6DE39B13C4CD31003F085F /* Smoke On The Water.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE37E13C4CD31003F085F /* Smoke On The Water.pdf */; };
+		0A6DE39C13C4CD31003F085F /* Some Folks Do.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE37F13C4CD31003F085F /* Some Folks Do.pdf */; };
+		0A6DE39D13C4CD31003F085F /* Story In Your Eyes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE38013C4CD31003F085F /* Story In Your Eyes.pdf */; };
+		0A6DE3A013C4CD31003F085F /* Sultans Of Swing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE38313C4CD31003F085F /* Sultans Of Swing.pdf */; };
+		0A6DE3A113C4CD31003F085F /* The First Nowell.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE38413C4CD31003F085F /* The First Nowell.pdf */; };
+		0A6DE3A313C4CD31003F085F /* The Quest Unending.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE38613C4CD31003F085F /* The Quest Unending.pdf */; };
+		0A6DE3A413C4CD31003F085F /* This Little Light of Mine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE38713C4CD31003F085F /* This Little Light of Mine.pdf */; };
+		0A6DE3A613C4CD31003F085F /* Too Much Stuff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE38913C4CD31003F085F /* Too Much Stuff.pdf */; };
+		0A6DE3A713C4CD31003F085F /* Try To Remember.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE38A13C4CD31003F085F /* Try To Remember.pdf */; };
+		0A6DE3A813C4CD31003F085F /* Two Irish Ballads.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE38B13C4CD31003F085F /* Two Irish Ballads.pdf */; };
+		0A6DE3A913C4CD31003F085F /* Wade In The Water.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE38C13C4CD31003F085F /* Wade In The Water.pdf */; };
+		0A6DE3AA13C4CD31003F085F /* We Wish You a Merry Christmas.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE38D13C4CD31003F085F /* We Wish You a Merry Christmas.pdf */; };
+		0A6DE3AB13C4CD31003F085F /* Wells Fargo Wagon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE38E13C4CD31003F085F /* Wells Fargo Wagon.pdf */; };
+		0A6DE3AC13C4CD31003F085F /* What Child is This.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE38F13C4CD31003F085F /* What Child is This.pdf */; };
+		0A6DE3AD13C4CD31003F085F /* You’ve Got A Friend.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE39013C4CD31003F085F /* You’ve Got A Friend.pdf */; };
+		0A6DE3BB13C4CD40003F085F /* Nothin Gonna Stumble My Feet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3B113C4CD40003F085F /* Nothin Gonna Stumble My Feet.pdf */; };
+		0A6DE3BC13C4CD40003F085F /* O Christmas Tree.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3B213C4CD40003F085F /* O Christmas Tree.pdf */; };
+		0A6DE3BD13C4CD40003F085F /* O Come, All Ye Faithful.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3B313C4CD40003F085F /* O Come, All Ye Faithful.pdf */; };
+		0A6DE3BE13C4CD40003F085F /* O Little Town of Bethlehem.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3B413C4CD40003F085F /* O Little Town of Bethlehem.pdf */; };
+		0A6DE3BF13C4CD40003F085F /* Oh! Susanna.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3B513C4CD40003F085F /* Oh! Susanna.pdf */; };
+		0A6DE3C013C4CD40003F085F /* Once Upon An Evening.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3B613C4CD40003F085F /* Once Upon An Evening.pdf */; };
+		0A6DE3DD13C4CD58003F085F /* Deck the Hall.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3C313C4CD58003F085F /* Deck the Hall.pdf */; };
+		0A6DE3DE13C4CD58003F085F /* Dont Get Me Wrong.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3C413C4CD58003F085F /* Dont Get Me Wrong.pdf */; };
+		0A6DE3DF13C4CD58003F085F /* Dont Think Twice.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3C513C4CD58003F085F /* Dont Think Twice.pdf */; };
+		0A6DE3E013C4CD58003F085F /* Dream A Little Dream.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3C613C4CD58003F085F /* Dream A Little Dream.pdf */; };
+		0A6DE3E113C4CD58003F085F /* Dual Nature Song List.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3C713C4CD58003F085F /* Dual Nature Song List.pdf */; };
+		0A6DE3E213C4CD58003F085F /* Et In Terra Pax.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3C813C4CD58003F085F /* Et In Terra Pax.pdf */; };
+		0A6DE3E413C4CD58003F085F /* Faded Blues.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3CA13C4CD58003F085F /* Faded Blues.pdf */; };
+		0A6DE3E513C4CD58003F085F /* Gentle On My Mind.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3CB13C4CD58003F085F /* Gentle On My Mind.pdf */; };
+		0A6DE3E613C4CD58003F085F /* Georgia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3CC13C4CD58003F085F /* Georgia.pdf */; };
+		0A6DE3E713C4CD58003F085F /* God Rest You Merry Gentlemen.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3CD13C4CD58003F085F /* God Rest You Merry Gentlemen.pdf */; };
+		0A6DE3E813C4CD58003F085F /* Godspeed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3CE13C4CD58003F085F /* Godspeed.pdf */; };
+		0A6DE3E913C4CD58003F085F /* Hallelujah! By and By.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3CF13C4CD58003F085F /* Hallelujah! By and By.pdf */; };
+		0A6DE3EA13C4CD58003F085F /* Hands.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3D013C4CD58003F085F /* Hands.pdf */; };
+		0A6DE3EB13C4CD58003F085F /* Hark! The Herals Angels Sing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3D113C4CD58003F085F /* Hark! The Herals Angels Sing.pdf */; };
+		0A6DE3EC13C4CD58003F085F /* He Never Failed Me Yet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3D213C4CD58003F085F /* He Never Failed Me Yet.pdf */; };
+		0A6DE3ED13C4CD58003F085F /* Helpless.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3D313C4CD58003F085F /* Helpless.pdf */; };
+		0A6DE3EE13C4CD58003F085F /* I Got Plenty O' Nuttin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3D413C4CD58003F085F /* I Got Plenty O' Nuttin.pdf */; };
+		0A6DE3EF13C4CD58003F085F /* I Need You Now .pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3D513C4CD58003F085F /* I Need You Now .pdf */; };
+		0A6DE3F013C4CD58003F085F /* If I Can't Love Her.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3D613C4CD58003F085F /* If I Can't Love Her.pdf */; };
+		0A6DE3F213C4CD58003F085F /* It Came Upon a Midnight Clear.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3D813C4CD58003F085F /* It Came Upon a Midnight Clear.pdf */; };
+		0A6DE3F313C4CD58003F085F /* Knocking On Heavens Door.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3D913C4CD58003F085F /* Knocking On Heavens Door.pdf */; };
+		0A6DE3F413C4CD58003F085F /* Lay Up Your Treasures In Heaven.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3DA13C4CD58003F085F /* Lay Up Your Treasures In Heaven.pdf */; };
+		0A6DE3F513C4CD58003F085F /* Leavin On A Jet Plane.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3DB13C4CD58003F085F /* Leavin On A Jet Plane.pdf */; };
+		0A6DE3FF13C4CD6C003F085F /* Africa.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3F613C4CD6C003F085F /* Africa.pdf */; };
+		0A6DE40113C4CD6C003F085F /* Alleluia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3F813C4CD6C003F085F /* Alleluia.pdf */; };
+		0A6DE40313C4CD6C003F085F /* Angels We Have Heard on High.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3FA13C4CD6C003F085F /* Angels We Have Heard on High.pdf */; };
+		0A6DE40413C4CD6C003F085F /* At Last.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3FB13C4CD6C003F085F /* At Last.pdf */; };
+		0A6DE40613C4CD6C003F085F /* Awesome God.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3FD13C4CD6C003F085F /* Awesome God.pdf */; };
+		0A6DE40713C4CD6C003F085F /* Blue Skies.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE3FE13C4CD6C003F085F /* Blue Skies.pdf */; };
+		0A6DE40913C4CD7C003F085F /* Christmas Carols.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DE40813C4CD7C003F085F /* Christmas Carols.pdf */; };
+		0A8DF4F913D093C5009E9CEA /* AnAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8DF4F813D093C5009E9CEA /* AnAlert.m */; };
+		0A8DF53F13D2098F009E9CEA /* Doctor My Eyes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF53E13D2098F009E9CEA /* Doctor My Eyes.pdf */; };
+		0A8DF55413D20CBF009E9CEA /* Millwork.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF55313D20CBF009E9CEA /* Millwork.pdf */; };
+		0A8DF55E13D2133F009E9CEA /* Alone.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF55D13D2133F009E9CEA /* Alone.pdf */; };
+		0A8DF56413D21581009E9CEA /* At Seventeen.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF56313D21581009E9CEA /* At Seventeen.pdf */; };
+		0A8DF56613D21636009E9CEA /* Every Time I Feel The Spirit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF56513D21636009E9CEA /* Every Time I Feel The Spirit.pdf */; };
+		0A8DF56813D216E2009E9CEA /* If We Ever Needed The Lord.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF56713D216E2009E9CEA /* If We Ever Needed The Lord.pdf */; };
+		0A8DF56A13D218B5009E9CEA /* Man On the Moon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF56913D218B5009E9CEA /* Man On the Moon.pdf */; };
+		0A8DF56C13D21B0B009E9CEA /* Never Been Any Reason.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF56B13D21B0B009E9CEA /* Never Been Any Reason.pdf */; };
+		0A8DF58F13D21DEE009E9CEA /* Play That Funky Music.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF58E13D21DEE009E9CEA /* Play That Funky Music.pdf */; };
+		0A8DF59113D21EBD009E9CEA /* Rhiannon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF59013D21EBD009E9CEA /* Rhiannon.pdf */; };
+		0A8DF59313D2200B009E9CEA /* Strawberry Wine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF59213D2200B009E9CEA /* Strawberry Wine.pdf */; };
+		0A8DF59513D220D9009E9CEA /* Copperhead Road.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF59413D220D9009E9CEA /* Copperhead Road.pdf */; };
+		0A8DF59713D22193009E9CEA /* Streets Of London.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF59613D22193009E9CEA /* Streets Of London.pdf */; };
+		0A8DF59B13D222D6009E9CEA /* Time After Time.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF59A13D222D6009E9CEA /* Time After Time.pdf */; };
+		0A8DF59F13D22B05009E9CEA /* All Creatures of Our God and King.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8DF59E13D22B05009E9CEA /* All Creatures of Our God and King.pdf */; };
+		0A9D0DF41381CBE300D6582E /* MaestroNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D0DF21381CBE300D6582E /* MaestroNavViewController.m */; };
+		0A9D0DF51381CBE300D6582E /* MaestroNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D0DF31381CBE300D6582E /* MaestroNavViewController.xib */; };
+		0A9D0E411381CD9C00D6582E /* FileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D0E3F1381CD9C00D6582E /* FileListViewController.m */; };
+		0A9D0E421381CD9C00D6582E /* FileListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D0E401381CD9C00D6582E /* FileListViewController.xib */; };
+		0A9D10441382A8B900D6582E /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D10421382A8B900D6582E /* FileViewController.m */; };
+		0A9D10451382A8B900D6582E /* FileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D10431382A8B900D6582E /* FileViewController.xib */; };
+		0A9D105C1382AA2600D6582E /* MainWindowPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D105B1382AA2600D6582E /* MainWindowPad.xib */; };
+		0A9D132C1384668700D6582E /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D132B1384668700D6582E /* TouchView.m */; };
+		1D3623260D0F684500981E51 /* MaestroPlusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MaestroPlusAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A04A58A13AA495E0055C7FE /* MaestroModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaestroModel.h; path = Projects/MaestroPlus/Classes/MaestroModel.h; sourceTree = DEVELOPER_DIR; };
+		0A04A58B13AA495E0055C7FE /* MaestroModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaestroModel.m; path = Projects/MaestroPlus/Classes/MaestroModel.m; sourceTree = DEVELOPER_DIR; };
+		0A37E7DB1386D72400684194 /* PlaylistNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaylistNavViewController.h; path = Projects/MaestroPlus/Classes/PlaylistNavViewController.h; sourceTree = DEVELOPER_DIR; };
+		0A37E7DC1386D72400684194 /* PlaylistNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaylistNavViewController.m; path = Projects/MaestroPlus/Classes/PlaylistNavViewController.m; sourceTree = DEVELOPER_DIR; };
+		0A37E7DD1386D72400684194 /* PlaylistNavViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PlaylistNavViewController.xib; path = Projects/MaestroPlus/Classes/PlaylistNavViewController.xib; sourceTree = DEVELOPER_DIR; };
+		0A37E88D1386E54600684194 /* PlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaylistViewController.h; path = Projects/MaestroPlus/Classes/PlaylistViewController.h; sourceTree = DEVELOPER_DIR; };
+		0A37E88E1386E54600684194 /* PlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaylistViewController.m; path = Projects/MaestroPlus/Classes/PlaylistViewController.m; sourceTree = DEVELOPER_DIR; };
+		0A37E88F1386E54600684194 /* PlaylistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PlaylistViewController.xib; path = Projects/MaestroPlus/Classes/PlaylistViewController.xib; sourceTree = DEVELOPER_DIR; };
+		0A37EE0613972EB800684194 /* PlayListIndividualView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayListIndividualView.h; path = Projects/MaestroPlus/Classes/PlayListIndividualView.h; sourceTree = DEVELOPER_DIR; };
+		0A37EE0713972EB800684194 /* PlayListIndividualView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayListIndividualView.m; path = Projects/MaestroPlus/Classes/PlayListIndividualView.m; sourceTree = DEVELOPER_DIR; };
+		0A37EE0813972EB800684194 /* PlayListIndividualView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PlayListIndividualView.xib; path = Projects/MaestroPlus/Classes/PlayListIndividualView.xib; sourceTree = DEVELOPER_DIR; };
+		0A37EE361397328D00684194 /* PlaylistAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaylistAddView.h; path = Projects/MaestroPlus/Classes/PlaylistAddView.h; sourceTree = DEVELOPER_DIR; };
+		0A37EE371397328D00684194 /* PlaylistAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaylistAddView.m; path = Projects/MaestroPlus/Classes/PlaylistAddView.m; sourceTree = DEVELOPER_DIR; };
+		0A37EE381397328D00684194 /* PlaylistAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PlaylistAddView.xib; path = Projects/MaestroPlus/Classes/PlaylistAddView.xib; sourceTree = DEVELOPER_DIR; };
+		0A6DBBCE13B4D974003F085F /* PlaylistNameAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaylistNameAlert.h; path = Projects/MaestroPlus/PlaylistNameAlert.h; sourceTree = DEVELOPER_DIR; };
+		0A6DBBCF13B4D974003F085F /* PlaylistNameAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaylistNameAlert.m; path = Projects/MaestroPlus/PlaylistNameAlert.m; sourceTree = DEVELOPER_DIR; };
+		0A6DE37413C4CD31003F085F /* Poetry Man.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Poetry Man.pdf"; path = "Projects/MaestroPlus/Poetry Man.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE37513C4CD31003F085F /* Praise The Lord.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Praise The Lord.pdf"; path = "Projects/MaestroPlus/Praise The Lord.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE37613C4CD31003F085F /* Prayer Of The Children.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Prayer Of The Children.pdf"; path = "Projects/MaestroPlus/Prayer Of The Children.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE37813C4CD31003F085F /* San Isidro.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "San Isidro.pdf"; path = "Projects/MaestroPlus/San Isidro.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE37A13C4CD31003F085F /* Scene Change.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Scene Change.pdf"; path = "Projects/MaestroPlus/Scene Change.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE37B13C4CD31003F085F /* Seasons Of Love.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Seasons Of Love.pdf"; path = "Projects/MaestroPlus/Seasons Of Love.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE37C13C4CD31003F085F /* Shall We Gather At The River.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Shall We Gather At The River.pdf"; path = "Projects/MaestroPlus/Shall We Gather At The River.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE37D13C4CD31003F085F /* Singing Men On Sunday Morning.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Singing Men On Sunday Morning.pdf"; path = "Projects/MaestroPlus/Singing Men On Sunday Morning.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE37E13C4CD31003F085F /* Smoke On The Water.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Smoke On The Water.pdf"; path = "Projects/MaestroPlus/Smoke On The Water.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE37F13C4CD31003F085F /* Some Folks Do.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Some Folks Do.pdf"; path = "Projects/MaestroPlus/Some Folks Do.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE38013C4CD31003F085F /* Story In Your Eyes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Story In Your Eyes.pdf"; path = "Projects/MaestroPlus/Story In Your Eyes.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE38313C4CD31003F085F /* Sultans Of Swing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Sultans Of Swing.pdf"; path = "Projects/MaestroPlus/Sultans Of Swing.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE38413C4CD31003F085F /* The First Nowell.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "The First Nowell.pdf"; path = "Projects/MaestroPlus/The First Nowell.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE38613C4CD31003F085F /* The Quest Unending.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "The Quest Unending.pdf"; path = "Projects/MaestroPlus/The Quest Unending.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE38713C4CD31003F085F /* This Little Light of Mine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "This Little Light of Mine.pdf"; path = "Projects/MaestroPlus/This Little Light of Mine.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE38913C4CD31003F085F /* Too Much Stuff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Too Much Stuff.pdf"; path = "Projects/MaestroPlus/Too Much Stuff.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE38A13C4CD31003F085F /* Try To Remember.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Try To Remember.pdf"; path = "Projects/MaestroPlus/Try To Remember.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE38B13C4CD31003F085F /* Two Irish Ballads.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Two Irish Ballads.pdf"; path = "Projects/MaestroPlus/Two Irish Ballads.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE38C13C4CD31003F085F /* Wade In The Water.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Wade In The Water.pdf"; path = "Projects/MaestroPlus/Wade In The Water.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE38D13C4CD31003F085F /* We Wish You a Merry Christmas.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "We Wish You a Merry Christmas.pdf"; path = "Projects/MaestroPlus/We Wish You a Merry Christmas.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE38E13C4CD31003F085F /* Wells Fargo Wagon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Wells Fargo Wagon.pdf"; path = "Projects/MaestroPlus/Wells Fargo Wagon.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE38F13C4CD31003F085F /* What Child is This.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "What Child is This.pdf"; path = "Projects/MaestroPlus/What Child is This.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE39013C4CD31003F085F /* You’ve Got A Friend.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "You’ve Got A Friend.pdf"; path = "Projects/MaestroPlus/You’ve Got A Friend.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3B113C4CD40003F085F /* Nothin Gonna Stumble My Feet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Nothin Gonna Stumble My Feet.pdf"; path = "Projects/MaestroPlus/Nothin Gonna Stumble My Feet.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3B213C4CD40003F085F /* O Christmas Tree.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "O Christmas Tree.pdf"; path = "Projects/MaestroPlus/O Christmas Tree.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3B313C4CD40003F085F /* O Come, All Ye Faithful.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "O Come, All Ye Faithful.pdf"; path = "Projects/MaestroPlus/O Come, All Ye Faithful.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3B413C4CD40003F085F /* O Little Town of Bethlehem.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "O Little Town of Bethlehem.pdf"; path = "Projects/MaestroPlus/O Little Town of Bethlehem.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3B513C4CD40003F085F /* Oh! Susanna.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Oh! Susanna.pdf"; path = "Projects/MaestroPlus/Oh! Susanna.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3B613C4CD40003F085F /* Once Upon An Evening.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Once Upon An Evening.pdf"; path = "Projects/MaestroPlus/Once Upon An Evening.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3C313C4CD58003F085F /* Deck the Hall.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Deck the Hall.pdf"; path = "Projects/MaestroPlus/Deck the Hall.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3C413C4CD58003F085F /* Dont Get Me Wrong.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Dont Get Me Wrong.pdf"; path = "Projects/MaestroPlus/Dont Get Me Wrong.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3C513C4CD58003F085F /* Dont Think Twice.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Dont Think Twice.pdf"; path = "Projects/MaestroPlus/Dont Think Twice.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3C613C4CD58003F085F /* Dream A Little Dream.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Dream A Little Dream.pdf"; path = "Projects/MaestroPlus/Dream A Little Dream.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3C713C4CD58003F085F /* Dual Nature Song List.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Dual Nature Song List.pdf"; path = "Projects/MaestroPlus/Dual Nature Song List.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3C813C4CD58003F085F /* Et In Terra Pax.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Et In Terra Pax.pdf"; path = "Projects/MaestroPlus/Et In Terra Pax.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3CA13C4CD58003F085F /* Faded Blues.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Faded Blues.pdf"; path = "Projects/MaestroPlus/Faded Blues.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3CB13C4CD58003F085F /* Gentle On My Mind.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Gentle On My Mind.pdf"; path = "Projects/MaestroPlus/Gentle On My Mind.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3CC13C4CD58003F085F /* Georgia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Georgia.pdf; path = Projects/MaestroPlus/Georgia.pdf; sourceTree = DEVELOPER_DIR; };
+		0A6DE3CD13C4CD58003F085F /* God Rest You Merry Gentlemen.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "God Rest You Merry Gentlemen.pdf"; path = "Projects/MaestroPlus/God Rest You Merry Gentlemen.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3CE13C4CD58003F085F /* Godspeed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Godspeed.pdf; path = Projects/MaestroPlus/Godspeed.pdf; sourceTree = DEVELOPER_DIR; };
+		0A6DE3CF13C4CD58003F085F /* Hallelujah! By and By.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Hallelujah! By and By.pdf"; path = "Projects/MaestroPlus/Hallelujah! By and By.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3D013C4CD58003F085F /* Hands.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Hands.pdf; path = Projects/MaestroPlus/Hands.pdf; sourceTree = DEVELOPER_DIR; };
+		0A6DE3D113C4CD58003F085F /* Hark! The Herals Angels Sing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Hark! The Herals Angels Sing.pdf"; path = "Projects/MaestroPlus/Hark! The Herals Angels Sing.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3D213C4CD58003F085F /* He Never Failed Me Yet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "He Never Failed Me Yet.pdf"; path = "Projects/MaestroPlus/He Never Failed Me Yet.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3D313C4CD58003F085F /* Helpless.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Helpless.pdf; path = Projects/MaestroPlus/Helpless.pdf; sourceTree = DEVELOPER_DIR; };
+		0A6DE3D413C4CD58003F085F /* I Got Plenty O' Nuttin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "I Got Plenty O' Nuttin.pdf"; path = "Projects/MaestroPlus/I Got Plenty O' Nuttin.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3D513C4CD58003F085F /* I Need You Now .pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "I Need You Now .pdf"; path = "Projects/MaestroPlus/I Need You Now .pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3D613C4CD58003F085F /* If I Can't Love Her.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "If I Can't Love Her.pdf"; path = "Projects/MaestroPlus/If I Can't Love Her.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3D813C4CD58003F085F /* It Came Upon a Midnight Clear.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "It Came Upon a Midnight Clear.pdf"; path = "Projects/MaestroPlus/It Came Upon a Midnight Clear.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3D913C4CD58003F085F /* Knocking On Heavens Door.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Knocking On Heavens Door.pdf"; path = "Projects/MaestroPlus/Knocking On Heavens Door.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3DA13C4CD58003F085F /* Lay Up Your Treasures In Heaven.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Lay Up Your Treasures In Heaven.pdf"; path = "Projects/MaestroPlus/Lay Up Your Treasures In Heaven.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3DB13C4CD58003F085F /* Leavin On A Jet Plane.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Leavin On A Jet Plane.pdf"; path = "Projects/MaestroPlus/Leavin On A Jet Plane.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3F613C4CD6C003F085F /* Africa.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Africa.pdf; path = Projects/MaestroPlus/Africa.pdf; sourceTree = DEVELOPER_DIR; };
+		0A6DE3F813C4CD6C003F085F /* Alleluia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Alleluia.pdf; path = Projects/MaestroPlus/Alleluia.pdf; sourceTree = DEVELOPER_DIR; };
+		0A6DE3FA13C4CD6C003F085F /* Angels We Have Heard on High.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Angels We Have Heard on High.pdf"; path = "Projects/MaestroPlus/Angels We Have Heard on High.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3FB13C4CD6C003F085F /* At Last.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "At Last.pdf"; path = "Projects/MaestroPlus/At Last.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3FD13C4CD6C003F085F /* Awesome God.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Awesome God.pdf"; path = "Projects/MaestroPlus/Awesome God.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE3FE13C4CD6C003F085F /* Blue Skies.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Blue Skies.pdf"; path = "Projects/MaestroPlus/Blue Skies.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A6DE40813C4CD7C003F085F /* Christmas Carols.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Christmas Carols.pdf"; path = "Projects/MaestroPlus/Christmas Carols.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A8DF4F713D093C5009E9CEA /* AnAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnAlert.h; path = Projects/MaestroPlus/Classes/AnAlert.h; sourceTree = DEVELOPER_DIR; };
+		0A8DF4F813D093C5009E9CEA /* AnAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnAlert.m; path = Projects/MaestroPlus/Classes/AnAlert.m; sourceTree = DEVELOPER_DIR; };
+		0A8DF53E13D2098F009E9CEA /* Doctor My Eyes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Doctor My Eyes.pdf"; path = "Projects/MaestroPlus/Doctor My Eyes.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A8DF55313D20CBF009E9CEA /* Millwork.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Millwork.pdf; path = Projects/MaestroPlus/Millwork.pdf; sourceTree = DEVELOPER_DIR; };
+		0A8DF55D13D2133F009E9CEA /* Alone.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Alone.pdf; path = Projects/MaestroPlus/Alone.pdf; sourceTree = DEVELOPER_DIR; };
+		0A8DF56313D21581009E9CEA /* At Seventeen.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "At Seventeen.pdf"; path = "Projects/MaestroPlus/At Seventeen.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A8DF56513D21636009E9CEA /* Every Time I Feel The Spirit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Every Time I Feel The Spirit.pdf"; path = "/Users/kevin/Documents/AudioDiner/Maestro/PDFs/Every Time I Feel The Spirit.pdf"; sourceTree = "<absolute>"; };
+		0A8DF56713D216E2009E9CEA /* If We Ever Needed The Lord.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "If We Ever Needed The Lord.pdf"; path = "Projects/MaestroPlus/If We Ever Needed The Lord.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A8DF56913D218B5009E9CEA /* Man On the Moon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Man On the Moon.pdf"; path = "Projects/MaestroPlus/Man On the Moon.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A8DF56B13D21B0B009E9CEA /* Never Been Any Reason.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Never Been Any Reason.pdf"; path = "Projects/MaestroPlus/Never Been Any Reason.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A8DF58E13D21DEE009E9CEA /* Play That Funky Music.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Play That Funky Music.pdf"; path = "Projects/MaestroPlus/Play That Funky Music.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A8DF59013D21EBD009E9CEA /* Rhiannon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Rhiannon.pdf; path = Projects/MaestroPlus/Rhiannon.pdf; sourceTree = DEVELOPER_DIR; };
+		0A8DF59213D2200B009E9CEA /* Strawberry Wine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Strawberry Wine.pdf"; path = "Projects/MaestroPlus/Strawberry Wine.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A8DF59413D220D9009E9CEA /* Copperhead Road.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Copperhead Road.pdf"; path = "Projects/MaestroPlus/Copperhead Road.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A8DF59613D22193009E9CEA /* Streets Of London.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Streets Of London.pdf"; path = "Projects/MaestroPlus/Streets Of London.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A8DF59A13D222D6009E9CEA /* Time After Time.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Time After Time.pdf"; path = "Projects/MaestroPlus/Time After Time.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A8DF59E13D22B05009E9CEA /* All Creatures of Our God and King.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "All Creatures of Our God and King.pdf"; path = "Projects/MaestroPlus/All Creatures of Our God and King.pdf"; sourceTree = DEVELOPER_DIR; };
+		0A9D0DF11381CBE300D6582E /* MaestroNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaestroNavViewController.h; path = Projects/MaestroPlus/MaestroNavViewController.h; sourceTree = DEVELOPER_DIR; };
+		0A9D0DF21381CBE300D6582E /* MaestroNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaestroNavViewController.m; path = Projects/MaestroPlus/MaestroNavViewController.m; sourceTree = DEVELOPER_DIR; };
+		0A9D0DF31381CBE300D6582E /* MaestroNavViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MaestroNavViewController.xib; path = Projects/MaestroPlus/MaestroNavViewController.xib; sourceTree = DEVELOPER_DIR; };
+		0A9D0E3E1381CD9C00D6582E /* FileListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileListViewController.h; path = Projects/MaestroPlus/Classes/FileListViewController.h; sourceTree = DEVELOPER_DIR; };
+		0A9D0E3F1381CD9C00D6582E /* FileListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileListViewController.m; path = Projects/MaestroPlus/Classes/FileListViewController.m; sourceTree = DEVELOPER_DIR; };
+		0A9D0E401381CD9C00D6582E /* FileListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FileListViewController.xib; path = Projects/MaestroPlus/Classes/FileListViewController.xib; sourceTree = DEVELOPER_DIR; };
+		0A9D10411382A8B900D6582E /* FileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileViewController.h; path = Projects/MaestroPlus/Classes/FileViewController.h; sourceTree = DEVELOPER_DIR; };
+		0A9D10421382A8B900D6582E /* FileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileViewController.m; path = Projects/MaestroPlus/Classes/FileViewController.m; sourceTree = DEVELOPER_DIR; };
+		0A9D10431382A8B900D6582E /* FileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FileViewController.xib; path = Projects/MaestroPlus/Classes/FileViewController.xib; sourceTree = DEVELOPER_DIR; };
+		0A9D105B1382AA2600D6582E /* MainWindowPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindowPad.xib; path = Projects/MaestroPlus/MainWindowPad.xib; sourceTree = DEVELOPER_DIR; };
+		0A9D132A1384668700D6582E /* TouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchView.h; path = Projects/MaestroPlus/Classes/TouchView.h; sourceTree = DEVELOPER_DIR; };
+		0A9D132B1384668700D6582E /* TouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchView.m; path = Projects/MaestroPlus/Classes/TouchView.m; sourceTree = DEVELOPER_DIR; };
+		0A9D17511386B20E00D6582E /* MaestroPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaestroPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MaestroPlusAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaestroPlusAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MaestroPlusAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaestroPlusAppDelegate.m; sourceTree = "<group>"; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MaestroPlus_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaestroPlus_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MaestroPlus-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MaestroPlus-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A8DF4F713D093C5009E9CEA /* AnAlert.h */,
+				0A8DF4F813D093C5009E9CEA /* AnAlert.m */,
+				0A37E7DB1386D72400684194 /* PlaylistNavViewController.h */,
+				0A37E7DC1386D72400684194 /* PlaylistNavViewController.m */,
+				0A37EE0613972EB800684194 /* PlayListIndividualView.h */,
+				0A37EE0713972EB800684194 /* PlayListIndividualView.m */,
+				0A37E88D1386E54600684194 /* PlaylistViewController.h */,
+				0A37E88E1386E54600684194 /* PlaylistViewController.m */,
+				0A37EE361397328D00684194 /* PlaylistAddView.h */,
+				0A37EE371397328D00684194 /* PlaylistAddView.m */,
+				0A04A58A13AA495E0055C7FE /* MaestroModel.h */,
+				0A04A58B13AA495E0055C7FE /* MaestroModel.m */,
+				0A9D10411382A8B900D6582E /* FileViewController.h */,
+				0A9D10421382A8B900D6582E /* FileViewController.m */,
+				0A9D132A1384668700D6582E /* TouchView.h */,
+				0A9D132B1384668700D6582E /* TouchView.m */,
+				1D3623240D0F684500981E51 /* MaestroPlusAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MaestroPlusAppDelegate.m */,
+				0A9D0DF11381CBE300D6582E /* MaestroNavViewController.h */,
+				0A9D0DF21381CBE300D6582E /* MaestroNavViewController.m */,
+				0A9D0E3E1381CD9C00D6582E /* FileListViewController.h */,
+				0A9D0E3F1381CD9C00D6582E /* FileListViewController.m */,
+				0A6DBBCE13B4D974003F085F /* PlaylistNameAlert.h */,
+				0A6DBBCF13B4D974003F085F /* PlaylistNameAlert.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A9D17511386B20E00D6582E /* MaestroPlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MaestroPlus_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				0A9D105B1382AA2600D6582E /* MainWindowPad.xib */,
+				0A9D0DF31381CBE300D6582E /* MaestroNavViewController.xib */,
+				0A9D0E401381CD9C00D6582E /* FileListViewController.xib */,
+				0A9D10431382A8B900D6582E /* FileViewController.xib */,
+				0A37E7DD1386D72400684194 /* PlaylistNavViewController.xib */,
+				0A37E88F1386E54600684194 /* PlaylistViewController.xib */,
+				0A37EE0813972EB800684194 /* PlayListIndividualView.xib */,
+				0A37EE381397328D00684194 /* PlaylistAddView.xib */,
+				0A6DE3FE13C4CD6C003F085F /* Blue Skies.pdf */,
+				8D1107310486CEB800E47090 /* MaestroPlus-Info.plist */,
+				0A6DE3F613C4CD6C003F085F /* Africa.pdf */,
+				0A8DF55D13D2133F009E9CEA /* Alone.pdf */,
+				0A8DF59E13D22B05009E9CEA /* All Creatures of Our God and King.pdf */,
+				0A6DE3F813C4CD6C003F085F /* Alleluia.pdf */,
+				0A6DE3FA13C4CD6C003F085F /* Angels We Have Heard on High.pdf */,
+				0A8DF56313D21581009E9CEA /* At Seventeen.pdf */,
+				0A6DE3FB13C4CD6C003F085F /* At Last.pdf */,
+				0A6DE3FD13C4CD6C003F085F /* Awesome God.pdf */,
+				0A6DE40813C4CD7C003F085F /* Christmas Carols.pdf */,
+				0A8DF59413D220D9009E9CEA /* Copperhead Road.pdf */,
+				0A6DE3C313C4CD58003F085F /* Deck the Hall.pdf */,
+				0A8DF53E13D2098F009E9CEA /* Doctor My Eyes.pdf */,
+				0A6DE3C413C4CD58003F085F /* Dont Get Me Wrong.pdf */,
+				0A6DE3C513C4CD58003F085F /* Dont Think Twice.pdf */,
+				0A6DE3C613C4CD58003F085F /* Dream A Little Dream.pdf */,
+				0A6DE3C713C4CD58003F085F /* Dual Nature Song List.pdf */,
+				0A6DE3C813C4CD58003F085F /* Et In Terra Pax.pdf */,
+				0A8DF56513D21636009E9CEA /* Every Time I Feel The Spirit.pdf */,
+				0A6DE3CA13C4CD58003F085F /* Faded Blues.pdf */,
+				0A6DE3CB13C4CD58003F085F /* Gentle On My Mind.pdf */,
+				0A6DE3CC13C4CD58003F085F /* Georgia.pdf */,
+				0A6DE3CD13C4CD58003F085F /* God Rest You Merry Gentlemen.pdf */,
+				0A6DE3CE13C4CD58003F085F /* Godspeed.pdf */,
+				0A6DE3CF13C4CD58003F085F /* Hallelujah! By and By.pdf */,
+				0A6DE3D013C4CD58003F085F /* Hands.pdf */,
+				0A6DE3D113C4CD58003F085F /* Hark! The Herals Angels Sing.pdf */,
+				0A6DE3D213C4CD58003F085F /* He Never Failed Me Yet.pdf */,
+				0A6DE3D313C4CD58003F085F /* Helpless.pdf */,
+				0A6DE3D413C4CD58003F085F /* I Got Plenty O' Nuttin.pdf */,
+				0A6DE3D513C4CD58003F085F /* I Need You Now .pdf */,
+				0A6DE3D613C4CD58003F085F /* If I Can't Love Her.pdf */,
+				0A6DE3D813C4CD58003F085F /* It Came Upon a Midnight Clear.pdf */,
+				0A8DF56713D216E2009E9CEA /* If We Ever Needed The Lord.pdf */,
+				0A6DE3B413C4CD40003F085F /* O Little Town of Bethlehem.pdf */,
+				0A6DE3D913C4CD58003F085F /* Knocking On Heavens Door.pdf */,
+				0A6DE3DA13C4CD58003F085F /* Lay Up Your Treasures In Heaven.pdf */,
+				0A6DE3DB13C4CD58003F085F /* Leavin On A Jet Plane.pdf */,
+				0A8DF56913D218B5009E9CEA /* Man On the Moon.pdf */,
+				0A8DF55313D20CBF009E9CEA /* Millwork.pdf */,
+				0A8DF56B13D21B0B009E9CEA /* Never Been Any Reason.pdf */,
+				0A6DE3B113C4CD40003F085F /* Nothin Gonna Stumble My Feet.pdf */,
+				0A6DE3B213C4CD40003F085F /* O Christmas Tree.pdf */,
+				0A6DE3B313C4CD40003F085F /* O Come, All Ye Faithful.pdf */,
+				0A6DE3B513C4CD40003F085F /* Oh! Susanna.pdf */,
+				0A6DE3B613C4CD40003F085F /* Once Upon An Evening.pdf */,
+				0A8DF58E13D21DEE009E9CEA /* Play That Funky Music.pdf */,
+				0A6DE37413C4CD31003F085F /* Poetry Man.pdf */,
+				0A6DE37513C4CD31003F085F /* Praise The Lord.pdf */,
+				0A6DE37613C4CD31003F085F /* Prayer Of The Children.pdf */,
+				0A8DF59013D21EBD009E9CEA /* Rhiannon.pdf */,
+				0A6DE37813C4CD31003F085F /* San Isidro.pdf */,
+				0A8DF59213D2200B009E9CEA /* Strawberry Wine.pdf */,
+				0A8DF59A13D222D6009E9CEA /* Time After Time.pdf */,
+				0A8DF59613D22193009E9CEA /* Streets Of London.pdf */,
+				0A6DE37A13C4CD31003F085F /* Scene Change.pdf */,
+				0A6DE37B13C4CD31003F085F /* Seasons Of Love.pdf */,
+				0A6DE37C13C4CD31003F085F /* Shall We Gather At The River.pdf */,
+				0A6DE37D13C4CD31003F085F /* Singing Men On Sunday Morning.pdf */,
+				0A6DE37E13C4CD31003F085F /* Smoke On The Water.pdf */,
+				0A6DE37F13C4CD31003F085F /* Some Folks Do.pdf */,
+				0A6DE38013C4CD31003F085F /* Story In Your Eyes.pdf */,
+				0A6DE38313C4CD31003F085F /* Sultans Of Swing.pdf */,
+				0A6DE38413C4CD31003F085F /* The First Nowell.pdf */,
+				0A6DE38613C4CD31003F085F /* The Quest Unending.pdf */,
+				0A6DE38713C4CD31003F085F /* This Little Light of Mine.pdf */,
+				0A6DE38913C4CD31003F085F /* Too Much Stuff.pdf */,
+				0A6DE38A13C4CD31003F085F /* Try To Remember.pdf */,
+				0A6DE38B13C4CD31003F085F /* Two Irish Ballads.pdf */,
+				0A6DE38C13C4CD31003F085F /* Wade In The Water.pdf */,
+				0A6DE38D13C4CD31003F085F /* We Wish You a Merry Christmas.pdf */,
+				0A6DE38E13C4CD31003F085F /* Wells Fargo Wagon.pdf */,
+				0A6DE38F13C4CD31003F085F /* What Child is This.pdf */,
+				0A6DE39013C4CD31003F085F /* You’ve Got A Friend.pdf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MaestroPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MaestroPlus" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaestroPlus;
+			productName = MaestroPlus;
+			productReference = 0A9D17511386B20E00D6582E /* MaestroPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MaestroPlus" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MaestroPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				0A9D0DF51381CBE300D6582E /* MaestroNavViewController.xib in Resources */,
+				0A9D0E421381CD9C00D6582E /* FileListViewController.xib in Resources */,
+				0A9D10451382A8B900D6582E /* FileViewController.xib in Resources */,
+				0A9D105C1382AA2600D6582E /* MainWindowPad.xib in Resources */,
+				0A37E7DF1386D72400684194 /* PlaylistNavViewController.xib in Resources */,
+				0A37E8911386E54600684194 /* PlaylistViewController.xib in Resources */,
+				0A37EE0A13972EB800684194 /* PlayListIndividualView.xib in Resources */,
+				0A37EE3A1397328D00684194 /* PlaylistAddView.xib in Resources */,
+				0A6DE39113C4CD31003F085F /* Poetry Man.pdf in Resources */,
+				0A6DE39213C4CD31003F085F /* Praise The Lord.pdf in Resources */,
+				0A6DE39313C4CD31003F085F /* Prayer Of The Children.pdf in Resources */,
+				0A6DE39513C4CD31003F085F /* San Isidro.pdf in Resources */,
+				0A6DE39713C4CD31003F085F /* Scene Change.pdf in Resources */,
+				0A6DE39813C4CD31003F085F /* Seasons Of Love.pdf in Resources */,
+				0A6DE39913C4CD31003F085F /* Shall We Gather At The River.pdf in Resources */,
+				0A6DE39A13C4CD31003F085F /* Singing Men On Sunday Morning.pdf in Resources */,
+				0A6DE39B13C4CD31003F085F /* Smoke On The Water.pdf in Resources */,
+				0A6DE39C13C4CD31003F085F /* Some Folks Do.pdf in Resources */,
+				0A6DE39D13C4CD31003F085F /* Story In Your Eyes.pdf in Resources */,
+				0A6DE3A013C4CD31003F085F /* Sultans Of Swing.pdf in Resources */,
+				0A6DE3A113C4CD31003F085F /* The First Nowell.pdf in Resources */,
+				0A6DE3A313C4CD31003F085F /* The Quest Unending.pdf in Resources */,
+				0A6DE3A413C4CD31003F085F /* This Little Light of Mine.pdf in Resources */,
+				0A6DE3A613C4CD31003F085F /* Too Much Stuff.pdf in Resources */,
+				0A6DE3A713C4CD31003F085F /* Try To Remember.pdf in Resources */,
+				0A6DE3A813C4CD31003F085F /* Two Irish Ballads.pdf in Resources */,
+				0A6DE3A913C4CD31003F085F /* Wade In The Water.pdf in Resources */,
+				0A6DE3AA13C4CD31003F085F /* We Wish You a Merry Christmas.pdf in Resources */,
+				0A6DE3AB13C4CD31003F085F /* Wells Fargo Wagon.pdf in Resources */,
+				0A6DE3AC13C4CD31003F085F /* What Child is This.pdf in Resources */,
+				0A6DE3AD13C4CD31003F085F /* You’ve Got A Friend.pdf in Resources */,
+				0A6DE3BB13C4CD40003F085F /* Nothin Gonna Stumble My Feet.pdf in Resources */,
+				0A6DE3BC13C4CD40003F085F /* O Christmas Tree.pdf in Resources */,
+				0A6DE3BD13C4CD40003F085F /* O Come, All Ye Faithful.pdf in Resources */,
+				0A6DE3BE13C4CD40003F085F /* O Little Town of Bethlehem.pdf in Resources */,
+				0A6DE3BF13C4CD40003F085F /* Oh! Susanna.pdf in Resources */,
+				0A6DE3C013C4CD40003F085F /* Once Upon An Evening.pdf in Resources */,
+				0A6DE3DD13C4CD58003F085F /* Deck the Hall.pdf in Resources */,
+				0A6DE3DE13C4CD58003F085F /* Dont Get Me Wrong.pdf in Resources */,
+				0A6DE3DF13C4CD58003F085F /* Dont Think Twice.pdf in Resources */,
+				0A6DE3E013C4CD58003F085F /* Dream A Little Dream.pdf in Resources */,
+				0A6DE3E113C4CD58003F085F /* Dual Nature Song List.pdf in Resources */,
+				0A6DE3E213C4CD58003F085F /* Et In Terra Pax.pdf in Resources */,
+				0A6DE3E413C4CD58003F085F /* Faded Blues.pdf in Resources */,
+				0A6DE3E513C4CD58003F085F /* Gentle On My Mind.pdf in Resources */,
+				0A6DE3E613C4CD58003F085F /* Georgia.pdf in Resources */,
+				0A6DE3E713C4CD58003F085F /* God Rest You Merry Gentlemen.pdf in Resources */,
+				0A6DE3E813C4CD58003F085F /* Godspeed.pdf in Resources */,
+				0A6DE3E913C4CD58003F085F /* Hallelujah! By and By.pdf in Resources */,
+				0A6DE3EA13C4CD58003F085F /* Hands.pdf in Resources */,
+				0A6DE3EB13C4CD58003F085F /* Hark! The Herals Angels Sing.pdf in Resources */,
+				0A6DE3EC13C4CD58003F085F /* He Never Failed Me Yet.pdf in Resources */,
+				0A6DE3ED13C4CD58003F085F /* Helpless.pdf in Resources */,
+				0A6DE3EE13C4CD58003F085F /* I Got Plenty O' Nuttin.pdf in Resources */,
+				0A6DE3EF13C4CD58003F085F /* I Need You Now .pdf in Resources */,
+				0A6DE3F013C4CD58003F085F /* If I Can't Love Her.pdf in Resources */,
+				0A6DE3F213C4CD58003F085F /* It Came Upon a Midnight Clear.pdf in Resources */,
+				0A6DE3F313C4CD58003F085F /* Knocking On Heavens Door.pdf in Resources */,
+				0A6DE3F413C4CD58003F085F /* Lay Up Your Treasures In Heaven.pdf in Resources */,
+				0A6DE3F513C4CD58003F085F /* Leavin On A Jet Plane.pdf in Resources */,
+				0A6DE3FF13C4CD6C003F085F /* Africa.pdf in Resources */,
+				0A6DE40113C4CD6C003F085F /* Alleluia.pdf in Resources */,
+				0A6DE40313C4CD6C003F085F /* Angels We Have Heard on High.pdf in Resources */,
+				0A6DE40413C4CD6C003F085F /* At Last.pdf in Resources */,
+				0A6DE40613C4CD6C003F085F /* Awesome God.pdf in Resources */,
+				0A6DE40713C4CD6C003F085F /* Blue Skies.pdf in Resources */,
+				0A6DE40913C4CD7C003F085F /* Christmas Carols.pdf in Resources */,
+				0A8DF53F13D2098F009E9CEA /* Doctor My Eyes.pdf in Resources */,
+				0A8DF55413D20CBF009E9CEA /* Millwork.pdf in Resources */,
+				0A8DF55E13D2133F009E9CEA /* Alone.pdf in Resources */,
+				0A8DF56413D21581009E9CEA /* At Seventeen.pdf in Resources */,
+				0A8DF56613D21636009E9CEA /* Every Time I Feel The Spirit.pdf in Resources */,
+				0A8DF56813D216E2009E9CEA /* If We Ever Needed The Lord.pdf in Resources */,
+				0A8DF56A13D218B5009E9CEA /* Man On the Moon.pdf in Resources */,
+				0A8DF56C13D21B0B009E9CEA /* Never Been Any Reason.pdf in Resources */,
+				0A8DF58F13D21DEE009E9CEA /* Play That Funky Music.pdf in Resources */,
+				0A8DF59113D21EBD009E9CEA /* Rhiannon.pdf in Resources */,
+				0A8DF59313D2200B009E9CEA /* Strawberry Wine.pdf in Resources */,
+				0A8DF59513D220D9009E9CEA /* Copperhead Road.pdf in Resources */,
+				0A8DF59713D22193009E9CEA /* Streets Of London.pdf in Resources */,
+				0A8DF59B13D222D6009E9CEA /* Time After Time.pdf in Resources */,
+				0A8DF59F13D22B05009E9CEA /* All Creatures of Our God and King.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MaestroPlusAppDelegate.m in Sources */,
+				0A9D0DF41381CBE300D6582E /* MaestroNavViewController.m in Sources */,
+				0A9D0E411381CD9C00D6582E /* FileListViewController.m in Sources */,
+				0A9D10441382A8B900D6582E /* FileViewController.m in Sources */,
+				0A9D132C1384668700D6582E /* TouchView.m in Sources */,
+				0A37E7DE1386D72400684194 /* PlaylistNavViewController.m in Sources */,
+				0A37E8901386E54600684194 /* PlaylistViewController.m in Sources */,
+				0A37EE0913972EB800684194 /* PlayListIndividualView.m in Sources */,
+				0A37EE391397328D00684194 /* PlaylistAddView.m in Sources */,
+				0A04A58C13AA495E0055C7FE /* MaestroModel.m in Sources */,
+				0A6DBBD013B4D974003F085F /* PlaylistNameAlert.m in Sources */,
+				0A8DF4F913D093C5009E9CEA /* AnAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MaestroPlus_Prefix.pch;
+				INFOPLIST_FILE = "MaestroPlus-Info.plist";
+				PRODUCT_NAME = MaestroPlus;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MaestroPlus_Prefix.pch;
+				INFOPLIST_FILE = "MaestroPlus-Info.plist";
+				PRODUCT_NAME = MaestroPlus;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MaestroPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MaestroPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,1487 @@
+TMaestroPlus
+v7
+r0
+t328754758.993163
+cCheck dependencies
+cCpResource build/Debug-iphoneos/MaestroPlus.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Info.plist MaestroPlus-Info.plist
+cCompileXIB /Developer/Projects/MaestroPlus/MainWindow.xib
+cCompileXIB /Developer/Projects/MaestroPlus/MaestroNavViewController.xib
+cCompileXIB /Developer/Projects/MaestroPlus/Classes/FileListViewController.xib
+cCompileXIB /Developer/Projects/MaestroPlus/Classes/FileViewController.xib
+cCompileXIB /Developer/Projects/MaestroPlus/MainWindowPad.xib
+cCpResource build/Debug-iphoneos/MaestroPlus.app/Alone.pdf Alone.pdf
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/At Last.pdf" "At Last.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Dont Get Me Wrong.pdf" "Dont Get Me Wrong.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Dont Think Twice.pdf" "Dont Think Twice.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Dream A Little Dream.pdf" "Dream A Little Dream.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Dual Nature Song List.pdf" "Dual Nature Song List.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Faded Blues.pdf" "Faded Blues.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Gentle On My Mind.pdf" "Gentle On My Mind.pdf"
+cCpResource build/Debug-iphoneos/MaestroPlus.app/Georgia.pdf Georgia.pdf
+cCpResource build/Debug-iphoneos/MaestroPlus.app/Hands.pdf Hands.pdf
+cCpResource build/Debug-iphoneos/MaestroPlus.app/Helpless.pdf Helpless.pdf
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Leavin On A Jet Plane.pdf" "Leavin On A Jet Plane.pdf"
+cCpResource build/Debug-iphoneos/MaestroPlus.app/Millwork.pdf Millwork.pdf
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Once Upon An Evening.pdf" "Once Upon An Evening.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/San Isidro.pdf" "San Isidro.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Scene Change.pdf" "Scene Change.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Smoke On The Water.pdf" "Smoke On The Water.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Story In Your Eyes.pdf" "Story In Your Eyes.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Strawberry Wine.pdf" "Strawberry Wine.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Streets Of London.pdf" "Streets Of London.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Sultans Of Swing.pdf" "Sultans Of Swing.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/The Lakes Of Pontchartrain.pdf" "The Lakes Of Pontchartrain.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Time After Time.pdf" "Time After Time.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Too Much Stuff.pdf" "Too Much Stuff.pdf"
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/You’ve Got A Friend.pdf" "You’ve Got A Friend.pdf"
+cCompileXIB /Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.xib
+cCompileXIB /Developer/Projects/MaestroPlus/Classes/PlaylistViewController.xib
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Save My Life.pdf" "Classes/Save My Life.pdf"
+cCpResource build/Debug-iphoneos/MaestroPlus.app/IfWeEverNeededTheLord.pdf IfWeEverNeededTheLord.pdf
+cCpResource build/Debug-iphoneos/MaestroPlus.app/EveryTimeIFeelTheSpirit.pdf EveryTimeIFeelTheSpirit.pdf
+cCpResource build/Debug-iphoneos/MaestroPlus.app/Rhiannon.pdf Rhiannon.pdf
+cCpResource "build/Debug-iphoneos/MaestroPlus.app/Poetry Man.pdf" "Poetry Man.pdf"
+cCompileXIB /Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.xib
+cCompileXIB /Developer/Projects/MaestroPlus/Classes/PlaylistAddView.xib
+cProcessPCH /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch.gch MaestroPlus_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch.gch MaestroPlus_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/main.o /Developer/Projects/MaestroPlus/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroPlusAppDelegate.o /Developer/Projects/MaestroPlus/Classes/MaestroPlusAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroNavViewController.o /Developer/Projects/MaestroPlus/MaestroNavViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/FileListViewController.o /Developer/Projects/MaestroPlus/Classes/FileListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/FileViewController.o /Developer/Projects/MaestroPlus/Classes/FileViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/TouchView.o /Developer/Projects/MaestroPlus/Classes/TouchView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistNavViewController.o /Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistViewController.o /Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlayListIndividualView.o /Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistAddView.o /Developer/Projects/MaestroPlus/Classes/PlaylistAddView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/main.o /Developer/Projects/MaestroPlus/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroPlusAppDelegate.o /Developer/Projects/MaestroPlus/Classes/MaestroPlusAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroNavViewController.o /Developer/Projects/MaestroPlus/MaestroNavViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/FileListViewController.o /Developer/Projects/MaestroPlus/Classes/FileListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroPlus normal armv6
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/FileViewController.o /Developer/Projects/MaestroPlus/Classes/FileViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/TouchView.o /Developer/Projects/MaestroPlus/Classes/TouchView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistNavViewController.o /Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistViewController.o /Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlayListIndividualView.o /Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistAddView.o /Developer/Projects/MaestroPlus/Classes/PlaylistAddView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroPlus normal armv7
+cCreateUniversalBinary /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MaestroPlus normal "armv6 armv7"
+cGenerateDSYMFile /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app.dSYM /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MaestroPlus
+cProcessProductPackaging "/Users/kevin/Library/MobileDevice/Provisioning Profiles/EBAA6C15-F06C-4110-8F4D-F52379A098FE.mobileprovision" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/embedded.mobileprovision
+cTouch /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus.xcent
+cCodeSign /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Projects/MaestroPlus/Alone.pdf
+c000000004DD67F430000000000005309
+t1305902915
+s21257
+
+N/Developer/Projects/MaestroPlus/At Last.pdf
+c000000004DD67FBA0000000000004784
+t1305903034
+s18308
+
+N/Developer/Projects/MaestroPlus/Classes/FileListViewController.h
+c000000004DDD94FD0000000000000271
+t1306367229
+s625
+i<UIKit/UIKit.h>
+
+N/Developer/Projects/MaestroPlus/Classes/FileListViewController.m
+c000000004DE19ED50000000000001425
+t1306631893
+s5157
+i"FileListViewController.h"
+i"MaestroNavViewController.h"
+
+N/Developer/Projects/MaestroPlus/Classes/FileListViewController.xib
+c000000004DDC74A90000000000004DFE
+t1306293417
+s19966
+
+N/Developer/Projects/MaestroPlus/Classes/FileViewController.h
+c000000004DD5306A00000000000002CC
+t1305817194
+s716
+i<UIKit/UIKit.h>
+
+N/Developer/Projects/MaestroPlus/Classes/FileViewController.m
+c000000004DDC691C0000000000001124
+t1306290460
+s4388
+i"FileViewController.h"
+i"TouchView.h"
+
+N/Developer/Projects/MaestroPlus/Classes/FileViewController.xib
+c000000004DDC32800000000000004C66
+t1306276480
+s19558
+
+N/Developer/Projects/MaestroPlus/Classes/MaestroPlusAppDelegate.h
+c000000004DD137190000000000000160
+t1305556761
+s352
+i<UIKit/UIKit.h>
+
+N/Developer/Projects/MaestroPlus/Classes/MaestroPlusAppDelegate.m
+c000000004DE6FB490000000000000EFD
+t1306983241
+s3837
+i"MaestroPlusAppDelegate.h"
+i"MaestroNavViewController.h"
+i"FileListViewController.h"
+i"PlaylistNavViewController.h"
+i"PlaylistViewController.h"
+i"PlaylistAddView.h"
+
+N/Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.h
+c000000004DE6F7380000000000000100
+t1306982200
+s256
+i<UIKit/UIKit.h>
+
+N/Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.m
+c000000004DE6F7380000000000000543
+t1306982200
+s1347
+i"PlayListIndividualView.h"
+
+N/Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.xib
+c000000004DE811E00000000000005774
+t1307054560
+s22388
+
+N/Developer/Projects/MaestroPlus/Classes/PlaylistAddView.h
+c000000004DE6FB0D00000000000000F2
+t1306983181
+s242
+i<UIKit/UIKit.h>
+
+N/Developer/Projects/MaestroPlus/Classes/PlaylistAddView.m
+c000000004DE6FB0D000000000000052E
+t1306983181
+s1326
+i"PlaylistAddView.h"
+
+N/Developer/Projects/MaestroPlus/Classes/PlaylistAddView.xib
+c000000004DE812E80000000000005801
+t1307054824
+s22529
+
+N/Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.h
+c000000004DE6FA78000000000000014D
+t1306983032
+s333
+i<UIKit/UIKit.h>
+
+N/Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.m
+c000000004DE813C000000000000007C4
+t1307055040
+s1988
+i"PlaylistNavViewController.h"
+i"PlaylistViewController.h"
+i"PlayListIndividualView.h"
+i"PlaylistAddView.h"
+
+N/Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.xib
+c000000004DD6ADAF0000000000003C63
+t1305914799
+s15459
+
+N/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.h
+c000000004DE2712600000000000001E1
+t1306685734
+s481
+i<UIKit/UIKit.h>
+
+N/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m
+c000000004DE6FA4600000000000013D2
+t1306982982
+s5074
+i"PlaylistViewController.h"
+i"PlaylistNavViewController.h"
+
+N/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.xib
+c000000004DD6ADEC00000000000045E5
+t1305914860
+s17893
+
+N/Developer/Projects/MaestroPlus/Classes/Save My Life.pdf
+c000000004DDD9680000000000000661A
+t1306367616
+s26138
+
+N/Developer/Projects/MaestroPlus/Classes/TouchView.h
+c000000004DD43A6100000000000001C4
+t1305754209
+s452
+i<Foundation/Foundation.h>
+i"FileViewController.h"
+
+N/Developer/Projects/MaestroPlus/Classes/TouchView.m
+c000000004DD523C600000000000002F9
+t1305813958
+s761
+i"TouchView.h"
+
+N/Developer/Projects/MaestroPlus/Dont Get Me Wrong.pdf
+c000000004DD6816C0000000000005B4A
+t1305903468
+s23370
+
+N/Developer/Projects/MaestroPlus/Dont Think Twice.pdf
+c000000004DD682540000000000005C92
+t1305903700
+s23698
+
+N/Developer/Projects/MaestroPlus/Dream A Little Dream.pdf
+c000000004DD682C30000000000004BEB
+t1305903811
+s19435
+
+N/Developer/Projects/MaestroPlus/Dual Nature Song List.pdf
+c000000004DD6834F0000000000004445
+t1305903951
+s17477
+
+N/Developer/Projects/MaestroPlus/EveryTimeIFeelTheSpirit.pdf
+c000000004DE591510000000000362787
+t1306890577
+s3549063
+
+N/Developer/Projects/MaestroPlus/Faded Blues.pdf
+c000000004DD683F200000000000045E6
+t1305904114
+s17894
+
+N/Developer/Projects/MaestroPlus/Gentle On My Mind.pdf
+c000000004DD684C40000000000006072
+t1305904324
+s24690
+
+N/Developer/Projects/MaestroPlus/Georgia.pdf
+c000000004DD685130000000000004B10
+t1305904403
+s19216
+
+N/Developer/Projects/MaestroPlus/Hands.pdf
+c000000004DD68546000000000000359A
+t1305904454
+s13722
+
+N/Developer/Projects/MaestroPlus/Helpless.pdf
+c000000004DD685840000000000007CFB
+t1305904516
+s31995
+
+N/Developer/Projects/MaestroPlus/IfWeEverNeededTheLord.pdf
+c000000004DE599C100000000006977C1
+t1306892737
+s6911937
+
+N/Developer/Projects/MaestroPlus/Leavin On A Jet Plane.pdf
+c000000004DD68604000000000000BC11
+t1305904644
+s48145
+
+N/Developer/Projects/MaestroPlus/MaestroNavViewController.h
+c000000004DE19E64000000000000015D
+t1306631780
+s349
+i<UIKit/UIKit.h>
+
+N/Developer/Projects/MaestroPlus/MaestroNavViewController.m
+c000000004DE19F46000000000000083A
+t1306632006
+s2106
+i"MaestroNavViewController.h"
+i"FileViewController.h"
+
+N/Developer/Projects/MaestroPlus/MaestroNavViewController.xib
+c000000004DD1946300000000000050A5
+t1305580643
+s20645
+
+N/Developer/Projects/MaestroPlus/MaestroPlus_Prefix.pch
+c000000004DD1371900000000000000BF
+t1305556761
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Developer/Projects/MaestroPlus/MainWindow.xib
+c000000004DD13719000000000000211C
+t1305556761
+s8476
+
+N/Developer/Projects/MaestroPlus/MainWindowPad.xib
+c000000004DD670540000000000004762
+t1305899092
+s18274
+
+N/Developer/Projects/MaestroPlus/Millwork.pdf
+c000000004DD686AF0000000000003894
+t1305904815
+s14484
+
+N/Developer/Projects/MaestroPlus/Once Upon An Evening.pdf
+c000000004DD6896F0000000000004335
+t1305905519
+s17205
+
+N/Developer/Projects/MaestroPlus/Poetry Man.pdf
+c000000004DE6EDA2000000000000B371
+t1306979746
+s45937
+
+N/Developer/Projects/MaestroPlus/Rhiannon.pdf
+c000000004DE6EBB9000000000000B750
+t1306979257
+s46928
+
+N/Developer/Projects/MaestroPlus/San Isidro.pdf
+c000000004DD68C2E0000000000003F6A
+t1305906222
+s16234
+
+N/Developer/Projects/MaestroPlus/Scene Change.pdf
+c000000004DD68087000000000000505B
+t1305903239
+s20571
+
+N/Developer/Projects/MaestroPlus/Smoke On The Water.pdf
+c000000004DD68CB50000000000006677
+t1305906357
+s26231
+
+N/Developer/Projects/MaestroPlus/Story In Your Eyes.pdf
+c000000004DD68D260000000000003393
+t1305906470
+s13203
+
+N/Developer/Projects/MaestroPlus/Strawberry Wine.pdf
+c000000004DD68DCF00000000000043D7
+t1305906639
+s17367
+
+N/Developer/Projects/MaestroPlus/Streets Of London.pdf
+c000000004DD68E250000000000005173
+t1305906725
+s20851
+
+N/Developer/Projects/MaestroPlus/Sultans Of Swing.pdf
+c000000004DD6784A0000000000005BFC
+t1305901130
+s23548
+
+N/Developer/Projects/MaestroPlus/The Lakes Of Pontchartrain.pdf
+c000000004DD68F3B00000000000044A9
+t1305907003
+s17577
+
+N/Developer/Projects/MaestroPlus/Time After Time.pdf
+c000000004DD68F7900000000000041AD
+t1305907065
+s16813
+
+N/Developer/Projects/MaestroPlus/Too Much Stuff.pdf
+c000000004DD691170000000000005D36
+t1305907479
+s23862
+
+N/Developer/Projects/MaestroPlus/You’ve Got A Friend.pdf
+c000000004DD6915A00000000000042F4
+t1305907546
+s17140
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app
+t1307061957
+s1632
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app.dSYM
+t1307061949
+s102
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Alone.pdf
+t1307061907
+s21257
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/At Last.pdf
+t1307061907
+s18308
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Dont Get Me Wrong.pdf
+t1307061907
+s23370
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Dont Think Twice.pdf
+t1307061907
+s23698
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Dream A Little Dream.pdf
+t1307061907
+s19435
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Dual Nature Song List.pdf
+t1307061907
+s17477
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/EveryTimeIFeelTheSpirit.pdf
+t1307061924
+s3549063
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Faded Blues.pdf
+t1307061907
+s17894
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/FileListViewController.nib
+t1307061905
+s1254
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/FileViewController.nib
+t1307061906
+s1233
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Gentle On My Mind.pdf
+t1307061907
+s24690
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Georgia.pdf
+t1307061907
+s19216
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Hands.pdf
+t1307061907
+s13722
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Helpless.pdf
+t1307061907
+s31995
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/IfWeEverNeededTheLord.pdf
+t1307061926
+s6911937
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Info.plist
+t1307061897
+s810
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Leavin On A Jet Plane.pdf
+t1307061907
+s48145
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MaestroNavViewController.nib
+t1307061905
+s795
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MaestroPlus
+t1307061949
+s117584
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MainWindow.nib
+t1307061907
+s988
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MainWindowPad.nib
+t1307061907
+s988
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Millwork.pdf
+t1307061907
+s14484
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Once Upon An Evening.pdf
+t1307061907
+s17205
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/PkgInfo
+t1307061897
+s8
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/PlayListIndividualView.nib
+t1307061910
+s1799
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/PlaylistAddView.nib
+t1307061915
+s1798
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/PlaylistNavViewController.nib
+t1307061910
+s795
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/PlaylistViewController.nib
+t1307061910
+s1139
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Poetry Man.pdf
+t1307061910
+s45937
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/ResourceRules.plist
+t1307061897
+s485
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Rhiannon.pdf
+t1307061910
+s46928
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/San Isidro.pdf
+t1307061907
+s16234
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Save My Life.pdf
+t1307061910
+s26138
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Scene Change.pdf
+t1307061907
+s20571
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Smoke On The Water.pdf
+t1307061907
+s26231
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Story In Your Eyes.pdf
+t1307061907
+s13203
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Strawberry Wine.pdf
+t1307061907
+s17367
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Streets Of London.pdf
+t1307061907
+s20851
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Sultans Of Swing.pdf
+t1307061907
+s23548
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/The Lakes Of Pontchartrain.pdf
+t1307061907
+s17577
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Time After Time.pdf
+t1307061907
+s16813
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Too Much Stuff.pdf
+t1307061907
+s23862
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/You’ve Got A Friend.pdf
+t1307061907
+s17140
+
+N/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/embedded.mobileprovision
+t1307061949
+s7262
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus.xcent
+t1307061950
+s428
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/FileListViewController.o
+t1307061947
+s61020
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/FileViewController.o
+t1307061947
+s57840
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroNavViewController.o
+t1307061947
+s43224
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroPlus
+t1307061949
+s56404
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroPlus.LinkFileList
+c000000004DE82E880000000000000521
+t1307061896
+s1313
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroPlusAppDelegate.o
+t1307061947
+s55364
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlayListIndividualView.o
+t1307061947
+s38084
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistAddView.o
+t1307061947
+s37940
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistNavViewController.o
+t1307061947
+s43508
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistViewController.o
+t1307061947
+s60280
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/TouchView.o
+t1307061947
+s40692
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/main.o
+t1307061947
+s6432
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/FileListViewController.o
+t1307061947
+s60652
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/FileViewController.o
+t1307061947
+s57000
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroNavViewController.o
+t1307061947
+s43120
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroPlus
+t1307061949
+s56144
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroPlus.LinkFileList
+c000000004DE82E890000000000000521
+t1307061897
+s1313
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroPlusAppDelegate.o
+t1307061947
+s55260
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlayListIndividualView.o
+t1307061948
+s38056
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistAddView.o
+t1307061948
+s37912
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistNavViewController.o
+t1307061947
+s43412
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistViewController.o
+t1307061948
+s59880
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/TouchView.o
+t1307061947
+s40636
+
+N/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/main.o
+t1307061947
+s6416
+
+N/Developer/Projects/MaestroPlus/main.m
+c000000004DD13719000000000000017A
+t1305556761
+s378
+i<UIKit/UIKit.h>
+
+N/Users/kevin/Library/MobileDevice/Provisioning Profiles/EBAA6C15-F06C-4110-8F4D-F52379A098FE.mobileprovision
+c000000004DDC72D50000000000001C5E
+t1306292949
+s7262
+
+N/var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch.gch
+t1307061945
+s10446552
+
+N/var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch.gch
+t1307061946
+s9983704
+
+NMaestroPlus-Info.plist
+c000000004DD67CF100000000000003B0
+t1305902321
+s944
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies328754696#328754697#0(0"0(0#1#0"8668730464#0"0#
+
+CCodeSign /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app
+s328754750.208809
+e328754758.993035
+r1
+xCodeSign
+x/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app
+lSLF07#2@45"CodeSign build/Debug-iphoneos/MaestroPlus.app328754750#328754758#0(0"0(0#0#68"/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app8675964480#641"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Kevin Friedly (QA3T7GLUSR)" --resource-rules=/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/ResourceRules.plist --entitlements /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus.xcent /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/FileListViewController.o /Developer/Projects/MaestroPlus/Classes/FileListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328754746.507292
+e328754747.152728
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/FileListViewController.o
+x/Developer/Projects/MaestroPlus/Classes/FileListViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Developer/Projects/MaestroPlus/Classes/FileListViewController.m328754746#328754747#0(0"0(0#0#64"/Developer/Projects/MaestroPlus/Classes/FileListViewController.m8670645184#1771"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv6 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/FileListViewController.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/FileListViewController.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/FileViewController.o /Developer/Projects/MaestroPlus/Classes/FileViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328754747.148715
+e328754747.429995
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/FileViewController.o
+x/Developer/Projects/MaestroPlus/Classes/FileViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Developer/Projects/MaestroPlus/Classes/FileViewController.m: In function '-[FileViewController turnPage:]':
+o/Developer/Projects/MaestroPlus/Classes/FileViewController.m:83: warning: local declaration of 'scrollPosition' hides instance variable
+lSLF07#2@68"Compile /Developer/Projects/MaestroPlus/Classes/FileViewController.m328754747#328754747#0(245"/Developer/Projects/MaestroPlus/Classes/FileViewController.m: In function '-[FileViewController turnPage:]':/Developer/Projects/MaestroPlus/Classes/FileViewController.m:83: warning: local declaration of 'scrollPosition' hides instance variable1(22@61"Local declaration of 'scrollPosition' hides instance variable328754747#109#136#0(6@60"/Developer/Projects/MaestroPlus/Classes/FileViewController.m327983260#83#0#83#0#0"0(0#0#60"/Developer/Projects/MaestroPlus/Classes/FileViewController.m8612809920#1763"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv6 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/FileViewController.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/FileViewController.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroNavViewController.o /Developer/Projects/MaestroPlus/MaestroNavViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328754746.506441
+e328754747.150334
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroNavViewController.o
+x/Developer/Projects/MaestroPlus/MaestroNavViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Developer/Projects/MaestroPlus/MaestroNavViewController.m328754746#328754747#0(0"0(0#0#58"/Developer/Projects/MaestroPlus/MaestroNavViewController.m8672463584#1767"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv6 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/MaestroNavViewController.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroNavViewController.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroPlusAppDelegate.o /Developer/Projects/MaestroPlus/Classes/MaestroPlusAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328754746.505015
+e328754747.150114
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroPlusAppDelegate.o
+x/Developer/Projects/MaestroPlus/Classes/MaestroPlusAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Developer/Projects/MaestroPlus/Classes/MaestroPlusAppDelegate.m328754746#328754747#0(0"0(0#0#64"/Developer/Projects/MaestroPlus/Classes/MaestroPlusAppDelegate.m8674525472#1771"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv6 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/MaestroPlusAppDelegate.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroPlusAppDelegate.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlayListIndividualView.o /Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328754747.258661
+e328754747.431684
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlayListIndividualView.o
+x/Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.m328754747#328754747#0(0"0(0#0#64"/Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.m8672650368#1771"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv6 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlayListIndividualView.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistAddView.o /Developer/Projects/MaestroPlus/Classes/PlaylistAddView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328754747.321943
+e328754747.500575
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistAddView.o
+x/Developer/Projects/MaestroPlus/Classes/PlaylistAddView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Developer/Projects/MaestroPlus/Classes/PlaylistAddView.m328754747#328754747#0(0"0(0#0#57"/Developer/Projects/MaestroPlus/Classes/PlaylistAddView.m8669336416#1757"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv6 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/PlaylistAddView.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistAddView.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistNavViewController.o /Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328754747.151491
+e328754747.258244
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistNavViewController.o
+x/Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.m328754747#328754747#0(0"0(0#0#67"/Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.m8669465280#1777"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv6 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistNavViewController.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistViewController.o /Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328754747.154872
+e328754747.321667
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistViewController.o
+x/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m: In function '-[PlaylistViewController editPlayList]':
+o/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m:49: warning: unused variable 'x'
+lSLF07#2@72"Compile /Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m328754747#328754747#0(218"/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m: In function '-[PlaylistViewController editPlayList]':/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m:49: warning: unused variable 'x'1(22@19"Unused variable 'x'328754747#120#98#0(6@64"/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m328675782#49#0#49#0#19"unused variable '*'0(0#0#64"/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m8665628288#1771"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv6 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/PlaylistViewController.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/TouchView.o /Developer/Projects/MaestroPlus/Classes/TouchView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328754747.150432
+e328754747.347284
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/TouchView.o
+x/Developer/Projects/MaestroPlus/Classes/TouchView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Developer/Projects/MaestroPlus/Classes/TouchView.m: In function '-[TouchView hitTest:withEvent:]':
+o/Developer/Projects/MaestroPlus/Classes/TouchView.m:18: warning: unused variable 'responderView'
+lSLF07#2@59"Compile /Developer/Projects/MaestroPlus/Classes/TouchView.m328754747#328754747#0(197"/Developer/Projects/MaestroPlus/Classes/TouchView.m: In function '-[TouchView hitTest:withEvent:]':/Developer/Projects/MaestroPlus/Classes/TouchView.m:18: warning: unused variable 'responderView'1(22@31"Unused variable 'responderView'328754747#100#97#0(6@51"/Developer/Projects/MaestroPlus/Classes/TouchView.m327506758#18#0#18#0#19"unused variable '*'0(0#0#51"/Developer/Projects/MaestroPlus/Classes/TouchView.m8672821184#1745"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv6 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/TouchView.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/TouchView.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/main.o /Developer/Projects/MaestroPlus/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328754746.443270
+e328754747.148589
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/main.o
+x/Developer/Projects/MaestroPlus/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Developer/Projects/MaestroPlus/main.m328754746#328754747#0(0"0(0#0#38"/Developer/Projects/MaestroPlus/main.m8615671808#1727"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv6 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/main.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/FileListViewController.o /Developer/Projects/MaestroPlus/Classes/FileListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328754747.472908
+e328754747.685602
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/FileListViewController.o
+x/Developer/Projects/MaestroPlus/Classes/FileListViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Developer/Projects/MaestroPlus/Classes/FileListViewController.m328754747#328754747#0(0"0(0#0#64"/Developer/Projects/MaestroPlus/Classes/FileListViewController.m8672722624#1771"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv7 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/FileListViewController.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/FileListViewController.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/FileViewController.o /Developer/Projects/MaestroPlus/Classes/FileViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328754747.575623
+e328754748.040930
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/FileViewController.o
+x/Developer/Projects/MaestroPlus/Classes/FileViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Developer/Projects/MaestroPlus/Classes/FileViewController.m: In function '-[FileViewController turnPage:]':
+o/Developer/Projects/MaestroPlus/Classes/FileViewController.m:83: warning: local declaration of 'scrollPosition' hides instance variable
+lSLF07#2@68"Compile /Developer/Projects/MaestroPlus/Classes/FileViewController.m328754747#328754748#0(245"/Developer/Projects/MaestroPlus/Classes/FileViewController.m: In function '-[FileViewController turnPage:]':/Developer/Projects/MaestroPlus/Classes/FileViewController.m:83: warning: local declaration of 'scrollPosition' hides instance variable1(22@61"Local declaration of 'scrollPosition' hides instance variable328754747#109#136#0(6@60"/Developer/Projects/MaestroPlus/Classes/FileViewController.m327983260#83#0#83#0#0"0(0#0#60"/Developer/Projects/MaestroPlus/Classes/FileViewController.m8670795360#1763"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv7 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/FileViewController.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/FileViewController.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroNavViewController.o /Developer/Projects/MaestroPlus/MaestroNavViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328754747.431812
+e328754747.575252
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroNavViewController.o
+x/Developer/Projects/MaestroPlus/MaestroNavViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Developer/Projects/MaestroPlus/MaestroNavViewController.m328754747#328754747#0(0"0(0#0#58"/Developer/Projects/MaestroPlus/MaestroNavViewController.m8667770304#1767"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv7 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/MaestroNavViewController.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroNavViewController.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroPlusAppDelegate.o /Developer/Projects/MaestroPlus/Classes/MaestroPlusAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328754747.430132
+e328754747.577775
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroPlusAppDelegate.o
+x/Developer/Projects/MaestroPlus/Classes/MaestroPlusAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Developer/Projects/MaestroPlus/Classes/MaestroPlusAppDelegate.m328754747#328754747#0(0"0(0#0#64"/Developer/Projects/MaestroPlus/Classes/MaestroPlusAppDelegate.m8657877280#1771"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv7 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/MaestroPlusAppDelegate.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroPlusAppDelegate.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlayListIndividualView.o /Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328754748.041055
+e328754748.275023
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlayListIndividualView.o
+x/Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.m328754748#328754748#0(0"0(0#0#64"/Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.m8669847200#1771"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv7 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlayListIndividualView.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistAddView.o /Developer/Projects/MaestroPlus/Classes/PlaylistAddView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328754748.202378
+e328754748.274739
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistAddView.o
+x/Developer/Projects/MaestroPlus/Classes/PlaylistAddView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Developer/Projects/MaestroPlus/Classes/PlaylistAddView.m328754748#328754748#0(0"0(0#0#57"/Developer/Projects/MaestroPlus/Classes/PlaylistAddView.m8671932640#1757"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv7 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/PlaylistAddView.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistAddView.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistNavViewController.o /Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328754747.685746
+e328754748.202254
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistNavViewController.o
+x/Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.m328754747#328754748#0(0"0(0#0#67"/Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.m8666068832#1777"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv7 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistNavViewController.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistViewController.o /Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328754747.890383
+e328754748.203546
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistViewController.o
+x/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m: In function '-[PlaylistViewController editPlayList]':
+o/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m:49: warning: unused variable 'x'
+lSLF07#2@72"Compile /Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m328754747#328754748#0(218"/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m: In function '-[PlaylistViewController editPlayList]':/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m:49: warning: unused variable 'x'1(22@19"Unused variable 'x'328754747#120#98#0(6@64"/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m328675782#49#0#49#0#19"unused variable '*'0(0#0#64"/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m8673094816#1771"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv7 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/PlaylistViewController.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/PlaylistViewController.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/TouchView.o /Developer/Projects/MaestroPlus/Classes/TouchView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328754747.577900
+e328754747.890287
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/TouchView.o
+x/Developer/Projects/MaestroPlus/Classes/TouchView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Developer/Projects/MaestroPlus/Classes/TouchView.m: In function '-[TouchView hitTest:withEvent:]':
+o/Developer/Projects/MaestroPlus/Classes/TouchView.m:18: warning: unused variable 'responderView'
+lSLF07#2@59"Compile /Developer/Projects/MaestroPlus/Classes/TouchView.m328754747#328754747#0(197"/Developer/Projects/MaestroPlus/Classes/TouchView.m: In function '-[TouchView hitTest:withEvent:]':/Developer/Projects/MaestroPlus/Classes/TouchView.m:18: warning: unused variable 'responderView'1(22@31"Unused variable 'responderView'328754747#100#97#0(6@51"/Developer/Projects/MaestroPlus/Classes/TouchView.m327506758#18#0#18#0#19"unused variable '*'0(0#0#51"/Developer/Projects/MaestroPlus/Classes/TouchView.m8620855072#1745"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv7 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/Classes/TouchView.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/TouchView.o0#
+
+CCompileC build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/main.o /Developer/Projects/MaestroPlus/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328754747.347418
+e328754747.472769
+r1
+xCompileC
+xbuild/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/main.o
+x/Developer/Projects/MaestroPlus/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Developer/Projects/MaestroPlus/main.m328754747#328754747#0(0"0(0#0#38"/Developer/Projects/MaestroPlus/main.m8663010784#1727"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv7 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -include /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch -c /Developer/Projects/MaestroPlus/main.m -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Developer/Projects/MaestroPlus/Classes/FileListViewController.xib
+s328754698.036491
+e328754707.055418
+r1
+xCompileXIB
+x/Developer/Projects/MaestroPlus/Classes/FileListViewController.xib
+lSLF07#2@45"CompileXIB Classes/FileListViewController.xib328754698#328754727#0(0"0(0#0#66"/Developer/Projects/MaestroPlus/Classes/FileListViewController.xib8668633344#557"    cd /Developer/Projects/MaestroPlus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/FileListViewController.nib /Developer/Projects/MaestroPlus/Classes/FileListViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Developer/Projects/MaestroPlus/Classes/FileViewController.xib
+s328754698.037030
+e328754707.409692
+r1
+xCompileXIB
+x/Developer/Projects/MaestroPlus/Classes/FileViewController.xib
+lSLF07#2@41"CompileXIB Classes/FileViewController.xib328754698#328754727#0(0"0(0#0#62"/Developer/Projects/MaestroPlus/Classes/FileViewController.xib8667635488#549"    cd /Developer/Projects/MaestroPlus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/FileViewController.nib /Developer/Projects/MaestroPlus/Classes/FileViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.xib
+s328754707.759590
+e328754710.789925
+r1
+xCompileXIB
+x/Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.xib
+lSLF07#2@45"CompileXIB Classes/PlayListIndividualView.xib328754707#328754727#0(0"0(0#0#66"/Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.xib8656369792#557"    cd /Developer/Projects/MaestroPlus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/PlayListIndividualView.nib /Developer/Projects/MaestroPlus/Classes/PlayListIndividualView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Developer/Projects/MaestroPlus/Classes/PlaylistAddView.xib
+s328754711.235934
+e328754719.577483
+r1
+xCompileXIB
+x/Developer/Projects/MaestroPlus/Classes/PlaylistAddView.xib
+lSLF07#2@38"CompileXIB Classes/PlaylistAddView.xib328754711#328754727#0(0"0(0#0#59"/Developer/Projects/MaestroPlus/Classes/PlaylistAddView.xib8666309856#543"    cd /Developer/Projects/MaestroPlus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/PlaylistAddView.nib /Developer/Projects/MaestroPlus/Classes/PlaylistAddView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.xib
+s328754707.696189
+e328754711.235834
+r1
+xCompileXIB
+x/Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.xib
+lSLF07#2@48"CompileXIB Classes/PlaylistNavViewController.xib328754707#328754727#0(0"0(0#0#69"/Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.xib8616133792#563"    cd /Developer/Projects/MaestroPlus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/PlaylistNavViewController.nib /Developer/Projects/MaestroPlus/Classes/PlaylistNavViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Developer/Projects/MaestroPlus/Classes/PlaylistViewController.xib
+s328754707.699541
+e328754711.236690
+r1
+xCompileXIB
+x/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.xib
+lSLF07#2@45"CompileXIB Classes/PlaylistViewController.xib328754707#328754727#0(0"0(0#0#66"/Developer/Projects/MaestroPlus/Classes/PlaylistViewController.xib8667095424#557"    cd /Developer/Projects/MaestroPlus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/PlaylistViewController.nib /Developer/Projects/MaestroPlus/Classes/PlaylistViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Developer/Projects/MaestroPlus/MaestroNavViewController.xib
+s328754698.035971
+e328754706.936436
+r1
+xCompileXIB
+x/Developer/Projects/MaestroPlus/MaestroNavViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Developer/Projects/MaestroPlus/MaestroNavViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MaestroNavViewController.
+lSLF07#2@39"CompileXIB MaestroNavViewController.xib328754698#328754727#0(235"/* com.apple.ibtool.document.warnings *//Developer/Projects/MaestroPlus/MaestroNavViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MaestroNavViewController.1(22@119"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MaestroNavViewController.328754706#18446744073709551615#0#0(6@60"/Developer/Projects/MaestroPlus/MaestroNavViewController.xib327273443#18446744073709551615#0#18446744073709551615#0#0"0(0#0#60"/Developer/Projects/MaestroPlus/MaestroNavViewController.xib8669484448#553"    cd /Developer/Projects/MaestroPlus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MaestroNavViewController.nib /Developer/Projects/MaestroPlus/MaestroNavViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Developer/Projects/MaestroPlus/MainWindow.xib
+s328754698.035136
+e328754710.137284
+r1
+xCompileXIB
+x/Developer/Projects/MaestroPlus/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib328754698#328754727#0(0"0(0#0#46"/Developer/Projects/MaestroPlus/MainWindow.xib8670096992#525"    cd /Developer/Projects/MaestroPlus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MainWindow.nib /Developer/Projects/MaestroPlus/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Developer/Projects/MaestroPlus/MainWindowPad.xib
+s328754706.936712
+e328754707.694754
+r1
+xCompileXIB
+x/Developer/Projects/MaestroPlus/MainWindowPad.xib
+lSLF07#2@28"CompileXIB MainWindowPad.xib328754706#328754727#0(0"0(0#0#49"/Developer/Projects/MaestroPlus/MainWindowPad.xib8673590304#531"    cd /Developer/Projects/MaestroPlus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MainWindowPad.nib /Developer/Projects/MaestroPlus/MainWindowPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/At Last.pdf" "At Last.pdf"
+s328754707.056252
+e328754707.220746
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/At Last.pdf
+xAt Last.pdf
+lSLF07#2@16"Copy At Last.pdf328754707#328754727#0(0"0(0#0#43"/Developer/Projects/MaestroPlus/At Last.pdf8670940320#440"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/At Last.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Dont Get Me Wrong.pdf" "Dont Get Me Wrong.pdf"
+s328754707.056980
+e328754707.220910
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Dont Get Me Wrong.pdf
+xDont Get Me Wrong.pdf
+lSLF07#2@26"Copy Dont Get Me Wrong.pdf328754707#328754727#0(0"0(0#0#53"/Developer/Projects/MaestroPlus/Dont Get Me Wrong.pdf8670439968#450"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Dont Get Me Wrong.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Dont Think Twice.pdf" "Dont Think Twice.pdf"
+s328754707.057795
+e328754707.221062
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Dont Think Twice.pdf
+xDont Think Twice.pdf
+lSLF07#2@25"Copy Dont Think Twice.pdf328754707#328754727#0(0"0(0#0#52"/Developer/Projects/MaestroPlus/Dont Think Twice.pdf8669926816#449"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Dont Think Twice.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Dream A Little Dream.pdf" "Dream A Little Dream.pdf"
+s328754707.058640
+e328754707.221213
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Dream A Little Dream.pdf
+xDream A Little Dream.pdf
+lSLF07#2@29"Copy Dream A Little Dream.pdf328754707#328754727#0(0"0(0#0#56"/Developer/Projects/MaestroPlus/Dream A Little Dream.pdf8669377344#453"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Dream A Little Dream.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Dual Nature Song List.pdf" "Dual Nature Song List.pdf"
+s328754707.059404
+e328754707.224838
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Dual Nature Song List.pdf
+xDual Nature Song List.pdf
+lSLF07#2@30"Copy Dual Nature Song List.pdf328754707#328754727#0(0"0(0#0#57"/Developer/Projects/MaestroPlus/Dual Nature Song List.pdf8668495904#454"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Dual Nature Song List.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Faded Blues.pdf" "Faded Blues.pdf"
+s328754707.060197
+e328754707.225011
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Faded Blues.pdf
+xFaded Blues.pdf
+lSLF07#2@20"Copy Faded Blues.pdf328754707#328754727#0(0"0(0#0#47"/Developer/Projects/MaestroPlus/Faded Blues.pdf8667111840#444"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Faded Blues.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Gentle On My Mind.pdf" "Gentle On My Mind.pdf"
+s328754707.219662
+e328754707.602407
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Gentle On My Mind.pdf
+xGentle On My Mind.pdf
+lSLF07#2@26"Copy Gentle On My Mind.pdf328754707#328754727#0(0"0(0#0#53"/Developer/Projects/MaestroPlus/Gentle On My Mind.pdf8666796224#450"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Gentle On My Mind.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Leavin On A Jet Plane.pdf" "Leavin On A Jet Plane.pdf"
+s328754707.223870
+e328754707.685762
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Leavin On A Jet Plane.pdf
+xLeavin On A Jet Plane.pdf
+lSLF07#2@30"Copy Leavin On A Jet Plane.pdf328754707#328754727#0(0"0(0#0#57"/Developer/Projects/MaestroPlus/Leavin On A Jet Plane.pdf8665426176#454"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Leavin On A Jet Plane.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Once Upon An Evening.pdf" "Once Upon An Evening.pdf"
+s328754707.226223
+e328754707.598636
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Once Upon An Evening.pdf
+xOnce Upon An Evening.pdf
+lSLF07#2@29"Copy Once Upon An Evening.pdf328754707#328754727#0(0"0(0#0#56"/Developer/Projects/MaestroPlus/Once Upon An Evening.pdf8648092736#453"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Once Upon An Evening.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Poetry Man.pdf" "Poetry Man.pdf"
+s328754707.758780
+e328754710.172199
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Poetry Man.pdf
+xPoetry Man.pdf
+lSLF07#2@19"Copy Poetry Man.pdf328754707#328754727#0(0"0(0#0#46"/Developer/Projects/MaestroPlus/Poetry Man.pdf8645437248#443"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Poetry Man.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/San Isidro.pdf" "San Isidro.pdf"
+s328754707.409834
+e328754707.598291
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/San Isidro.pdf
+xSan Isidro.pdf
+lSLF07#2@19"Copy San Isidro.pdf328754707#328754727#0(0"0(0#0#46"/Developer/Projects/MaestroPlus/San Isidro.pdf8644536992#443"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/San Isidro.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Save My Life.pdf" "Classes/Save My Life.pdf"
+s328754707.756086
+e328754710.041259
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Save My Life.pdf
+xClasses/Save My Life.pdf
+lSLF07#2@29"Copy Classes/Save My Life.pdf328754707#328754727#0(0"0(0#0#56"/Developer/Projects/MaestroPlus/Classes/Save My Life.pdf8666132704#453"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Classes/Save My Life.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Scene Change.pdf" "Scene Change.pdf"
+s328754707.598711
+e328754707.639679
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Scene Change.pdf
+xScene Change.pdf
+lSLF07#2@21"Copy Scene Change.pdf328754707#328754727#0(0"0(0#0#48"/Developer/Projects/MaestroPlus/Scene Change.pdf8671357792#445"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Scene Change.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Smoke On The Water.pdf" "Smoke On The Water.pdf"
+s328754707.599360
+e328754707.695938
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Smoke On The Water.pdf
+xSmoke On The Water.pdf
+lSLF07#2@27"Copy Smoke On The Water.pdf328754707#328754727#0(0"0(0#0#54"/Developer/Projects/MaestroPlus/Smoke On The Water.pdf8671132704#451"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Smoke On The Water.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Story In Your Eyes.pdf" "Story In Your Eyes.pdf"
+s328754707.599887
+e328754707.696095
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Story In Your Eyes.pdf
+xStory In Your Eyes.pdf
+lSLF07#2@27"Copy Story In Your Eyes.pdf328754707#328754727#0(0"0(0#0#54"/Developer/Projects/MaestroPlus/Story In Your Eyes.pdf8670852384#451"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Story In Your Eyes.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Strawberry Wine.pdf" "Strawberry Wine.pdf"
+s328754707.600602
+e328754707.697546
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Strawberry Wine.pdf
+xStrawberry Wine.pdf
+lSLF07#2@24"Copy Strawberry Wine.pdf328754707#328754727#0(0"0(0#0#51"/Developer/Projects/MaestroPlus/Strawberry Wine.pdf8670770464#448"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Strawberry Wine.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Streets Of London.pdf" "Streets Of London.pdf"
+s328754707.601373
+e328754707.697692
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Streets Of London.pdf
+xStreets Of London.pdf
+lSLF07#2@26"Copy Streets Of London.pdf328754707#328754727#0(0"0(0#0#53"/Developer/Projects/MaestroPlus/Streets Of London.pdf8670361792#450"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Streets Of London.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Sultans Of Swing.pdf" "Sultans Of Swing.pdf"
+s328754707.602657
+e328754707.697224
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Sultans Of Swing.pdf
+xSultans Of Swing.pdf
+lSLF07#2@25"Copy Sultans Of Swing.pdf328754707#328754727#0(0"0(0#0#52"/Developer/Projects/MaestroPlus/Sultans Of Swing.pdf8670071584#449"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Sultans Of Swing.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/The Lakes Of Pontchartrain.pdf" "The Lakes Of Pontchartrain.pdf"
+s328754707.603504
+e328754707.697391
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/The Lakes Of Pontchartrain.pdf
+xThe Lakes Of Pontchartrain.pdf
+lSLF07#2@35"Copy The Lakes Of Pontchartrain.pdf328754707#328754727#0(0"0(0#0#62"/Developer/Projects/MaestroPlus/The Lakes Of Pontchartrain.pdf8669706336#459"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/The Lakes Of Pontchartrain.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Time After Time.pdf" "Time After Time.pdf"
+s328754707.639772
+e328754707.699197
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Time After Time.pdf
+xTime After Time.pdf
+lSLF07#2@24"Copy Time After Time.pdf328754707#328754727#0(0"0(0#0#51"/Developer/Projects/MaestroPlus/Time After Time.pdf8669170560#448"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Time After Time.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/Too Much Stuff.pdf" "Too Much Stuff.pdf"
+s328754707.685859
+e328754707.699474
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Too Much Stuff.pdf
+xToo Much Stuff.pdf
+lSLF07#2@23"Copy Too Much Stuff.pdf328754707#328754727#0(0"0(0#0#50"/Developer/Projects/MaestroPlus/Too Much Stuff.pdf8665897312#447"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/Too Much Stuff.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource "build/Debug-iphoneos/MaestroPlus.app/You’ve Got A Friend.pdf" "You’ve Got A Friend.pdf"
+s328754707.694884
+e328754707.755995
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/You’ve Got A Friend.pdf
+xYou’ve Got A Friend.pdf
+lSLF07#2@30"Copy You’ve Got A Friend.pdf328754707#328754727#0(0"0(0#0#57"/Developer/Projects/MaestroPlus/You’ve Got A Friend.pdf8617748928#454"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Projects/MaestroPlus/You’ve Got A Friend.pdf" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource build/Debug-iphoneos/MaestroPlus.app/Alone.pdf Alone.pdf
+s328754707.055544
+e328754707.219520
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Alone.pdf
+xAlone.pdf
+lSLF07#2@14"Copy Alone.pdf328754707#328754727#0(0"0(0#0#41"/Developer/Projects/MaestroPlus/Alone.pdf8673254112#436"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Projects/MaestroPlus/Alone.pdf /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource build/Debug-iphoneos/MaestroPlus.app/EveryTimeIFeelTheSpirit.pdf EveryTimeIFeelTheSpirit.pdf
+s328754707.757364
+e328754724.388210
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/EveryTimeIFeelTheSpirit.pdf
+xEveryTimeIFeelTheSpirit.pdf
+lSLF07#2@32"Copy EveryTimeIFeelTheSpirit.pdf328754707#328754727#0(0"0(0#0#59"/Developer/Projects/MaestroPlus/EveryTimeIFeelTheSpirit.pdf8663775712#454"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Projects/MaestroPlus/EveryTimeIFeelTheSpirit.pdf /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource build/Debug-iphoneos/MaestroPlus.app/Georgia.pdf Georgia.pdf
+s328754707.221313
+e328754707.598090
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Georgia.pdf
+xGeorgia.pdf
+lSLF07#2@16"Copy Georgia.pdf328754707#328754727#0(0"0(0#0#43"/Developer/Projects/MaestroPlus/Georgia.pdf8666260192#438"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Projects/MaestroPlus/Georgia.pdf /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource build/Debug-iphoneos/MaestroPlus.app/Hands.pdf Hands.pdf
+s328754707.222156
+e328754707.598394
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Hands.pdf
+xHands.pdf
+lSLF07#2@14"Copy Hands.pdf328754707#328754727#0(0"0(0#0#41"/Developer/Projects/MaestroPlus/Hands.pdf8665890528#436"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Projects/MaestroPlus/Hands.pdf /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource build/Debug-iphoneos/MaestroPlus.app/Helpless.pdf Helpless.pdf
+s328754707.223118
+e328754707.602561
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Helpless.pdf
+xHelpless.pdf
+lSLF07#2@17"Copy Helpless.pdf328754707#328754727#0(0"0(0#0#44"/Developer/Projects/MaestroPlus/Helpless.pdf8665659552#439"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Projects/MaestroPlus/Helpless.pdf /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource build/Debug-iphoneos/MaestroPlus.app/IfWeEverNeededTheLord.pdf IfWeEverNeededTheLord.pdf
+s328754707.756729
+e328754726.959856
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/IfWeEverNeededTheLord.pdf
+xIfWeEverNeededTheLord.pdf
+lSLF07#2@30"Copy IfWeEverNeededTheLord.pdf328754707#328754727#0(0"0(0#0#57"/Developer/Projects/MaestroPlus/IfWeEverNeededTheLord.pdf8665228160#452"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Projects/MaestroPlus/IfWeEverNeededTheLord.pdf /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource build/Debug-iphoneos/MaestroPlus.app/Millwork.pdf Millwork.pdf
+s328754707.225112
+e328754707.598518
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Millwork.pdf
+xMillwork.pdf
+lSLF07#2@17"Copy Millwork.pdf328754707#328754727#0(0"0(0#0#44"/Developer/Projects/MaestroPlus/Millwork.pdf8661595328#439"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Projects/MaestroPlus/Millwork.pdf /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource build/Debug-iphoneos/MaestroPlus.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s328754697.351083
+e328754697.681770
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist328754697#328754697#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8665063744#484"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCpResource build/Debug-iphoneos/MaestroPlus.app/Rhiannon.pdf Rhiannon.pdf
+s328754707.758017
+e328754710.116698
+r1
+xCpResource
+xbuild/Debug-iphoneos/MaestroPlus.app/Rhiannon.pdf
+xRhiannon.pdf
+lSLF07#2@17"Copy Rhiannon.pdf328754707#328754727#0(0"0(0#0#44"/Developer/Projects/MaestroPlus/Rhiannon.pdf8647504416#439"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Projects/MaestroPlus/Rhiannon.pdf /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
+CCreateUniversalBinary /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MaestroPlus normal "armv6 armv7"
+s328754749.394273
+e328754749.645696
+r1
+xCreateUniversalBinary
+x/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MaestroPlus
+xnormal
+xarmv6 armv7
+lSLF07#2@91"CreateUniversalBinary build/Debug-iphoneos/MaestroPlus.app/MaestroPlus normal "armv6 armv7"328754749#328754749#0(0"0(0#0#43"/Developer/Projects/MaestroPlus/armv6 armv78673427776#522"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroPlus /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroPlus -output /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MaestroPlus0#
+
+CGenerateDSYMFile /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app.dSYM /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MaestroPlus
+s328754749.645820
+e328754749.912090
+r1
+xGenerateDSYMFile
+x/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app.dSYM
+x/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MaestroPlus
+lSLF07#2@107"GenerateDSYMFile build/Debug-iphoneos/MaestroPlus.app.dSYM build/Debug-iphoneos/MaestroPlus.app/MaestroPlus328754749#328754749#0(0"0(0#0#80"/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MaestroPlus8673289376#353"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/MaestroPlus -o /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app.dSYM0#
+
+CLd /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroPlus normal armv6
+s328754747.500706
+e328754749.394180
+r1
+xLd
+x/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroPlus
+xnormal
+xarmv6
+lSLF07#2@126"Link /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroPlus328754747#328754749#0(0"0(0#0#0"8641487168#848"    cd /Developer/Projects/MaestroPlus    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Developer/Projects/MaestroPlus/build/Debug-iphoneos -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -filelist /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroPlus.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv6/MaestroPlus0#
+
+CLd /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroPlus normal armv7
+s328754748.275079
+e328754749.369805
+r1
+xLd
+x/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroPlus
+xnormal
+xarmv7
+lSLF07#2@126"Link /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroPlus328754748#328754749#0(0"0(0#0#0"8669501696#848"    cd /Developer/Projects/MaestroPlus    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Developer/Projects/MaestroPlus/build/Debug-iphoneos -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -filelist /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroPlus.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/Objects-normal/armv7/MaestroPlus0#
+
+CProcessInfoPlistFile /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Info.plist MaestroPlus-Info.plist
+s328754697.399768
+e328754698.035019
+r1
+xProcessInfoPlistFile
+x/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Info.plist
+xMaestroPlus-Info.plist
+lSLF07#2@30"Process MaestroPlus-Info.plist328754697#328754698#0(0"0(0#0#54"/Developer/Projects/MaestroPlus/MaestroPlus-Info.plist8662596320#550"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MaestroPlus-Info.plist -genpkginfo /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/ResourceRules.plist -o /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/Info.plist0#
+
+CProcessPCH /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch.gch MaestroPlus_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s328754726.961176
+e328754746.016258
+r1
+xProcessPCH
+x/var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch.gch
+xMaestroPlus_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile MaestroPlus_Prefix.pch328754726#328754746#0(0"0(0#0#54"/Developer/Projects/MaestroPlus/MaestroPlus_Prefix.pch8673100704#1628"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv7 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -c /Developer/Projects/MaestroPlus/MaestroPlus_Prefix.pch -o /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-buzjqyuyxmhxqdaexnltapodbexd/MaestroPlus_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch.gch MaestroPlus_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s328754726.960194
+e328754746.442915
+r1
+xProcessPCH
+x/var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch.gch
+xMaestroPlus_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile MaestroPlus_Prefix.pch328754726#328754746#0(0"0(0#0#54"/Developer/Projects/MaestroPlus/MaestroPlus_Prefix.pch8673597344#1628"    cd /Developer/Projects/MaestroPlus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-generated-files.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-own-target-headers.hmap -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-all-target-headers.hmap -iquote /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus-project-headers.hmap -F/Developer/Projects/MaestroPlus/build/Debug-iphoneos -I/Developer/Projects/MaestroPlus/build/Debug-iphoneos/include -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources/armv6 -I/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/DerivedSources -c /Developer/Projects/MaestroPlus/MaestroPlus_Prefix.pch -o /var/folders/XJ/XJjsEo29H04AWh2Xlu8Oo++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MaestroPlus_Prefix-fgllrfpcejlrpwewsklnvjdakgju/MaestroPlus_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/kevin/Library/MobileDevice/Provisioning Profiles/EBAA6C15-F06C-4110-8F4D-F52379A098FE.mobileprovision" /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/embedded.mobileprovision
+s328754749.912234
+e328754749.977060
+r1
+xProcessProductPackaging
+x/Users/kevin/Library/MobileDevice/Provisioning Profiles/EBAA6C15-F06C-4110-8F4D-F52379A098FE.mobileprovision
+x/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/embedded.mobileprovision
+lSLF07#2@196"ProcessProductPackaging "/Users/kevin/Library/MobileDevice/Provisioning Profiles/EBAA6C15-F06C-4110-8F4D-F52379A098FE.mobileprovision" build/Debug-iphoneos/MaestroPlus.app/embedded.mobileprovision328754749#328754749#0(0"0(0#0#93"/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/embedded.mobileprovision8659813792#413"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/kevin/Library/MobileDevice/Provisioning Profiles/EBAA6C15-F06C-4110-8F4D-F52379A098FE.mobileprovision" -o /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus.xcent
+s328754750.003509
+e328754750.208708
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus.xcent
+lSLF07#2@187"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus.xcent328754750#328754750#0(0"0(0#0#106"/Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus.xcent8615672000#430"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Developer/Projects/MaestroPlus/build/MaestroPlus.build/Debug-iphoneos/MaestroPlus.build/MaestroPlus.xcent0#
+
+CTouch /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app
+s328754749.977157
+e328754750.003372
+r1
+xTouch
+x/Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app
+lSLF07#2@74"Touch /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app328754749#328754750#0(0"0(0#0#0"8665529664#254"    cd /Developer/Projects/MaestroPlus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/Projects/MaestroPlus/build/Debug-iphoneos/MaestroPlus.app0#
+
